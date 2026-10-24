@@ -49,7 +49,7 @@ function ItuChart({ country }: { country: Country }) {
     const yMax = 10 ** (Math.log10(data.itu.max) + 0.2);
     return {
       animation: false,
-      grid: { left: 48, right: 10, top: 28, bottom: 28 },
+      grid: { left: 48, right: 12, top: 28, bottom: 32 },
       tooltip: {
         trigger: "item" as const,
         backgroundColor: "#fffcf7",
@@ -66,10 +66,14 @@ function ItuChart({ country }: { country: Country }) {
         min: 2012.6,
         max: 2025.4,
         axisLabel: {
+          show: true,
+          hideOverlap: false,
           color: "#5c564e",
           fontFamily: FONT,
-          fontSize: 11,
-          formatter: (value: number) => ([2013, 2017, 2021, 2025].includes(Math.round(value)) ? String(Math.round(value)) : ""),
+          fontSize: 12,
+          margin: 8,
+          customValues: [2013, 2017, 2021, 2025],
+          formatter: (value: number) => String(Math.round(value)),
         },
         axisTick: { show: false },
         splitLine: { show: false },

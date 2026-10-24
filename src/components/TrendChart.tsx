@@ -132,21 +132,21 @@ export function TrendChart({
     }
     return {
       animation: false,
-      grid: { left: 58, right: 16, top: 16, bottom: 32 },
+      grid: { left: 58, right: 18, top: 16, bottom: 36 },
       tooltip: { show: false },
       xAxis: {
         type: "value",
         min: 2018.7,
         max: 2023.35,
-        interval: 1,
         axisLabel: {
+          show: true,
+          hideOverlap: false,
           color: "#5c564e",
           fontFamily: FONT,
-          formatter: (value: number) => {
-            const year = Math.round(value);
-            if (Math.abs(value - year) > 0.05 || year < 2019 || year > 2023) return "";
-            return String(year);
-          },
+          fontSize: 13,
+          margin: 10,
+          customValues: data.years,
+          formatter: (value: number) => String(Math.round(value)),
         },
         axisTick: { show: false },
         axisLine: { lineStyle: { color: "#e3dcd0" } },
