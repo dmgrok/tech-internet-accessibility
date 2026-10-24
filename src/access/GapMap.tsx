@@ -15,14 +15,20 @@ function ensureMap() {
   mapReady = true;
 }
 
+// With a custom projection, ECharts draws smaller y toward the top of the
+// screen. Negate the mercator y so north stays up. unproject reverses that.
 function project(point: number[]): number[] {
   const lng = point[0];
   const lat = Math.max(-56, Math.min(72, point[1]));
-  return [(lng * Math.PI) / 180, Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360))];
+  const x = (lng * Math.PI) / 180;
+  const y = Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
+  return [x, -y];
 }
 
 function unproject(point: number[]): number[] {
-  return [(point[0] * 180) / Math.PI, ((2 * Math.atan(Math.exp(point[1])) - Math.PI / 2) * 180) / Math.PI];
+  const lng = (point[0] * 180) / Math.PI;
+  const lat = ((2 * Math.atan(Math.exp(-point[1])) - Math.PI / 2) * 180) / Math.PI;
+  return [lng, lat];
 }
 
 const HATCH = {
