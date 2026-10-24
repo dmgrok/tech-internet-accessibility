@@ -1,0 +1,154 @@
+iso3,basket,basket_label,year,pct_gni
+FRA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,0.47
+FRA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.37
+FRA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.31
+FRA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.33
+FRA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.36
+FRA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.34
+FRA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.34
+FRA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.49
+FRA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.66
+FRA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.16
+FRA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.15
+FRA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.14
+FRA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.14
+FRA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.32
+FRA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.3
+FRA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.29
+FRA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.28
+DEU,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,0.61
+DEU,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.5
+DEU,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.4
+DEU,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.29
+DEU,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.47
+DEU,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.45
+DEU,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.37
+DEU,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.42
+DEU,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.29
+DEU,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.27
+DEU,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.25
+DEU,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.24
+DEU,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.18
+DEU,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.41
+DEU,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.33
+DEU,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.24
+DEU,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.22
+ITA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,0.37
+ITA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.31
+ITA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.39
+ITA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.4
+ITA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.44
+ITA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.25
+ITA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.25
+ITA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.4
+ITA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.43
+ITA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.39
+ITA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.37
+ITA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.34
+ITA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.32
+ITA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.39
+ITA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.37
+ITA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.34
+ITA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.32
+ESP,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,1.31
+ESP,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,1.19
+ESP,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.59
+ESP,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.61
+ESP,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.75
+ESP,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.29
+ESP,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.33
+ESP,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.31
+ESP,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.3
+ESP,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.23
+ESP,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.21
+ESP,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.32
+ESP,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.37
+ESP,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.28
+ESP,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.43
+ESP,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.4
+ESP,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.37
+GBR,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,0.58
+GBR,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.45
+GBR,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.42
+GBR,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.44
+GBR,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.46
+GBR,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.5
+GBR,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.58
+GBR,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.55
+GBR,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.39
+GBR,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.35
+GBR,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.32
+GBR,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.31
+GBR,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.29
+GBR,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.35
+GBR,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.32
+GBR,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.31
+GBR,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.29
+PRT,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,1.15
+PRT,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.93
+PRT,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.81
+PRT,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.62
+PRT,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,1.02
+PRT,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,1.08
+PRT,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.97
+PRT,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.89
+PRT,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.78
+PRT,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.74
+PRT,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.53
+PRT,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.48
+PRT,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.37
+PRT,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.86
+PRT,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.63
+PRT,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.68
+PRT,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.37
+USA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,0.36
+USA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,0.35
+USA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,0.36
+USA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,0.35
+USA,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,0.67
+USA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.42
+USA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.42
+USA,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.4
+USA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.7
+USA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.74
+USA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.67
+USA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.64
+USA,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.61
+USA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.74
+USA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.67
+USA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.64
+USA,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.61
+CHN,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,2.89
+CHN,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,1.32
+CHN,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,1.3
+CHN,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,1.14
+CHN,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,1.02
+CHN,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,0.96
+CHN,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.96
+CHN,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,0.51
+CHN,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,0.5
+CHN,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,0.45
+CHN,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.42
+CHN,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.41
+CHN,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.25
+CHN,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,0.75
+CHN,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,0.85
+CHN,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,0.81
+CHN,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.25
+IND,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2013,12.72
+IND,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2014,3.13
+IND,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2015,2.98
+IND,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2016,3.23
+IND,i271md_pd_B1GB_GNI,"1 GB postpaid, computer-based (2013 to 2017)",2017,4.04
+IND,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2018,1.29
+IND,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2019,0.85
+IND,i271mb_1GB5_GNI,1.5 GB data-only (2018 to 2020),2020,1.62
+IND,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2021,1.1
+IND,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2022,1.11
+IND,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2023,0.99
+IND,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2024,0.92
+IND,i271mb_2GB_GNI,2 GB data-only (2021 to 2025),2025,0.93
+IND,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2022,1.43
+IND,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2023,1.15
+IND,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2024,1.04
+IND,i271mb_5GB_GNI,5 GB data-only (2022 to 2025; headline from 2025),2025,0.93

@@ -1,0 +1,30 @@
+{
+  "name": "hour-of-pay",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4737 --strictPort",
+    "data": "python3 scripts/prepare_data.py",
+    "build": "tsc -b && vite build && python3 scripts/strip_dashes.py dist && python3 scripts/check_dashes.py dist",
+    "build:single": "tsc -b && vite build --config vite.single.config.ts && python3 scripts/strip_dashes.py dist-single && python3 scripts/check_dashes.py dist-single",
+    "check": "python3 scripts/check_dashes.py dist-single src index.html README.md",
+    "lint": "oxlint",
+    "preview": "vite preview --host 0.0.0.0 --port 4737 --strictPort"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite-plugin-singlefile": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}

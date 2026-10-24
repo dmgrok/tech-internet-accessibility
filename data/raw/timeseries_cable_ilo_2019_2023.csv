@@ -1,0 +1,1231 @@
+iso2,country,year,cable_usd_per_gb,iso3,ilo_monthly_usd,gb_per_hour_of_pay,OBS_STATUS,SOURCE,wage_break
+AF,Afghanistan,2019,1.5985078288310763,AFG,,,,,False
+AF,Afghanistan,2020,1.5514205724,AFG,171.874,0.6392666902591967,B,LFS - Labour Force Survey,True
+AF,Afghanistan,2021,1.0182388827000002,AFG,,,,,True
+AF,Afghanistan,2022,0.89514917,AFG,,,,,False
+AF,Afghanistan,2023,1.020504375,AFG,,,,,False
+AL,Albania,2019,5.277386202429665,ALB,476.828,0.521367925445199,,ADM-IR - General Directorate of Taxation,False
+AL,Albania,2020,2.8252094000000003,ALB,493.898,1.0087604860782529,,ADM-IR - General Directorate of Taxation,False
+AL,Albania,2021,2.795180718,ALB,552.463,1.1404985643851913,,ADM-IR - General Directorate of Taxation,False
+AL,Albania,2022,2.9691809816666663,ALB,547.568,1.0641499454167365,,ADM-IR - General Directorate of Taxation,False
+AL,Albania,2023,1.55279546875,ALB,,,,,True
+DZ,Algeria,2019,5.150618501908164,DZA,,,,,False
+DZ,Algeria,2020,0.6492690833333333,DZA,,,,,False
+DZ,Algeria,2021,0.5104270400000002,DZA,,,,,False
+DZ,Algeria,2022,0.482029905,DZA,,,,,False
+DZ,Algeria,2023,0.7290618000000001,DZA,,,,,False
+AS,American Samoa,2019,1.936319752692308,ASM,,,,,False
+AS,American Samoa,2020,2.5,ASM,,,,,False
+AS,American Samoa,2021,2.0,ASM,,,,,False
+AS,American Samoa,2022,2.693908171428572,ASM,,,,,False
+AS,American Samoa,2023,1.5,ASM,,,,,False
+AD,Andorra,2019,12.583333333333332,AND,,,,,False
+AD,Andorra,2020,9.5357058625,AND,,,,,False
+AD,Andorra,2021,7.493473333333332,AND,,,,,False
+AD,Andorra,2022,8.928698333333335,AND,,,,,False
+AD,Andorra,2023,4.822064999999999,AND,,,,,False
+AO,Angola,2019,7.94918875,AGO,225.408,0.1636243572871646,B,LFS - Employment Survey,True
+AO,Angola,2020,5.2946469,AGO,152.676,0.1663930598577621,,LFS - Employment Survey,True
+AO,Angola,2021,1.6051364,AGO,140.554,0.5052806924205729,,LFS - Employment Survey,False
+AO,Angola,2022,2.6664893833333334,AGO,209.505,0.4533733318240852,,LFS - Employment Survey,True
+AO,Angola,2023,1.0070493333333337,AGO,183.03,1.0487524072763157,,LFS - Employment Survey,False
+AI,Anguilla,2019,14.120698244444444,AIA,,,,,False
+AI,Anguilla,2020,5.9184842955,AIA,,,,,False
+AI,Anguilla,2021,3.84821736,AIA,,,,,False
+AI,Anguilla,2022,4.471300968,AIA,,,,,False
+AI,Anguilla,2023,1.884596614895,AIA,,,,,False
+AG,Antigua and Barbuda,2019,12.696969349422044,ATG,,,,,False
+AG,Antigua and Barbuda,2020,7.1691549375,ATG,,,,,False
+AG,Antigua and Barbuda,2021,4.440250799999999,ATG,,,,,False
+AG,Antigua and Barbuda,2022,5.245420714285714,ATG,,,,,False
+AG,Antigua and Barbuda,2023,3.203203654772727,ATG,1051.929,1.8949742550008968,,LFS - Labour Force Survey,False
+AR,Argentina,2019,7.395062328186276,ARG,530.921,0.4142757405064071,,"LFS - Encuesta Permanente de Hogares, Urbano",False
+AR,Argentina,2020,1.45029817625,ARG,514.353,2.0464701467098525,,"LFS - Encuesta Permanente de Hogares, Urbano",False
+AR,Argentina,2021,2.3751522,ARG,544.819,1.3236166986164954,,"LFS - Encuesta Permanente de Hogares, Urbano",False
+AR,Argentina,2022,1.4820623575,ARG,635.912,2.4758936206201034,,"LFS - Encuesta Permanente de Hogares, Urbano",False
+AR,Argentina,2023,1.1072115,ARG,643.878,3.355632838279616,,"LFS - Encuesta Permanente de Hogares, Urbano",False
+AM,Armenia,2019,2.511054623805556,ARM,249.361,0.5730253142774543,,HIES - Households Living Conditions Survey,False
+AM,Armenia,2020,1.049314,ARM,257.12,1.4139427631064243,,HIES - Households Living Conditions Survey,False
+AM,Armenia,2021,0.7636687666666668,ARM,259.164,1.9582632912090612,,HIES - Households Living Conditions Survey,False
+AM,Armenia,2022,0.905588625,ARM,327.817,2.0888244873062805,,HIES - Households Living Conditions Survey,False
+AM,Armenia,2023,0.9768266250000002,ARM,405.291,2.394147529871055,,HIES - Households Living Conditions Survey,False
+AW,Aruba,2019,5.555336905650496,ABW,,,,,False
+AW,Aruba,2020,9.111269279999998,ABW,,,,,False
+AW,Aruba,2021,4.444581599999999,ABW,,,,,False
+AW,Aruba,2022,6.641193833333333,ABW,,,,,False
+AW,Aruba,2023,1.85459178,ABW,,,,,False
+AU,Australia,2019,2.473626824107656,AUS,3836.156,8.948773486731419,,"HIES - Household, Income and Labour Dynamics Survey",False
+AU,Australia,2020,0.678153,AUS,3874.297,32.96603081421005,,"HIES - Household, Income and Labour Dynamics Survey",False
+AU,Australia,2021,0.6966613684210526,AUS,4436.17,36.74412326390009,,"HIES - Household, Income and Labour Dynamics Survey",False
+AU,Australia,2022,0.5671708157904761,AUS,,,,,True
+AU,Australia,2023,0.43924375,AUS,,,,,False
+AT,Austria,2019,1.8849312459556455,AUT,4452.49,13.630408645266018,,HIES - EU Statistics on Income and Living Conditions,False
+AT,Austria,2020,1.0842666733333333,AUT,4753.423,25.29716137908021,,HIES - EU Statistics on Income and Living Conditions,False
+AT,Austria,2021,1.1713482,AUT,5057.051,24.91223868654143,,HIES - EU Statistics on Income and Living Conditions,False
+AT,Austria,2022,0.936389844,AUT,4482.002,27.619562091244592,,HIES - EU Statistics on Income and Living Conditions,False
+AT,Austria,2023,0.506316825,AUT,4855.474,55.336375650845824,,HIES - EU Statistics on Income and Living Conditions,False
+AZ,Azerbaijan,2019,6.421263095238095,AZE,373.412,0.335559271780286,,ES - Labour-related Establishment Survey,False
+AZ,Azerbaijan,2020,1.862745085,AZE,416.059,1.2888516505319687,,ES - Labour-related Establishment Survey,False
+AZ,Azerbaijan,2021,1.823529399,AZE,430.647,1.362730869692123,,ES - Labour-related Establishment Survey,False
+AZ,Azerbaijan,2022,1.7647058699999998,AZE,493.765,1.614542230959422,U,ES - Labour-related Establishment Survey,False
+AZ,Azerbaijan,2023,1.7647058699999998,AZE,,,,,True
+BS,Bahamas,2019,4.944325729723707,BHS,4585.317,5.351354584611493,,LFS - Labour Force & Household Survey,False
+BS,Bahamas,2020,6.019782000000001,BHS,,,,,True
+BS,Bahamas,2021,5.9836434,BHS,,,,,False
+BS,Bahamas,2022,6.866245,BHS,,,,,False
+BS,Bahamas,2023,4.99217725,BHS,2038.117,2.3558115784268394,,LFS - Labour Force & Household Survey,False
+BH,Bahrain,2019,2.001496788602445,BHR,876.577,2.527182531353146,,ADM-IR - Social Insurance organization Records,False
+BH,Bahrain,2020,2.26947322,BHR,938.83,2.387059991285009,,ADM-IR - Social Insurance organization Records,False
+BH,Bahrain,2021,2.1216736,BHR,,,,,True
+BH,Bahrain,2022,1.1720539066666664,BHR,,,,,False
+BH,Bahrain,2023,1.313023635,BHR,,,,,False
+BD,Bangladesh,2019,0.9859368479279548,BGD,,,,,False
+BD,Bangladesh,2020,0.6996309688666666,BGD,,,,,False
+BD,Bangladesh,2021,0.3437250261666666,BGD,,,,,False
+BD,Bangladesh,2022,0.3249080725,BGD,146.093,2.5945995766987133,,LFS - Labour Force Survey,False
+BD,Bangladesh,2023,0.231031682925,BGD,129.833,3.242761348448016,,LFS - Labour Force Survey,False
+BB,Barbados,2019,15.81917001962118,BRB,,,,,False
+BB,Barbados,2020,9.3161960625,BRB,,,,,False
+BB,Barbados,2021,6.794378249999999,BRB,,,,,False
+BB,Barbados,2022,12.545697131,BRB,,,,,False
+BB,Barbados,2023,2.746050645,BRB,,,,,False
+BY,Belarus,2019,2.3564986778000003,BLR,,,,,False
+BY,Belarus,2020,0.8935875,BLR,,,,,False
+BY,Belarus,2021,0.4284833333333332,BLR,,,,,False
+BY,Belarus,2022,0.78875,BLR,,,,,False
+BY,Belarus,2023,0.6695000000000001,BLR,,,,,False
+BE,Belgium,2019,3.1249028979591835,BEL,5531.883,10.214988843619134,,HIES - EU Statistics on Income and Living Conditions,False
+BE,Belgium,2020,4.882454999999999,BEL,5757.055,6.803988432023041,,HIES - EU Statistics on Income and Living Conditions,False
+BE,Belgium,2021,5.275010833333332,BEL,6127.541,6.702924185185179,,HIES - EU Statistics on Income and Living Conditions,False
+BE,Belgium,2022,3.826585,BEL,5683.102,8.569895442690491,,HIES - EU Statistics on Income and Living Conditions,False
+BE,Belgium,2023,2.2324375,BEL,6299.322,16.282306915521776,,HIES - EU Statistics on Income and Living Conditions,False
+BZ,Belize,2019,4.392293317472625,BLZ,634.721,0.8338596710401082,,LFS - Labour Force Survey,False
+BZ,Belize,2020,3.248179822105264,BLZ,510.0,0.9060069918286604,,LFS - Labour Force Survey,False
+BZ,Belize,2021,2.9697762,BLZ,,,,,True
+BZ,Belize,2022,3.20424525,BLZ,,,,,False
+BZ,Belize,2023,2.9153394117647053,BLZ,,,,,False
+BJ,Benin,2019,20.986451647321427,BEN,126.59,0.0348066176146404,,HIES - Enquête de Suivi de l'Enquête Modulaire et Intégrée sur les Conditions de Vie des Ménages,False
+BJ,Benin,2020,27.216981,BEN,,,,,True
+BJ,Benin,2021,3.612492,BEN,,,,,False
+BJ,Benin,2022,2.60931,BEN,135.693,0.3000773410187348,,HIES - Enquête de Suivi de l'Enquête Modulaire et Intégrée sur les Conditions de Vie des Ménages,False
+BJ,Benin,2023,2.3667486562500004,BEN,,,,,True
+BM,Bermuda,2019,37.735720025000006,BMU,,,,,False
+BM,Bermuda,2020,28.75,BMU,,,,,False
+BM,Bermuda,2021,19.8,BMU,,,,,False
+BM,Bermuda,2022,6.00510763,BMU,,,,,False
+BM,Bermuda,2023,3.4166666666666665,BMU,,,,,False
+BT,Bhutan,2019,1.4876290330947195,BTN,275.307,1.067883916588518,,LFS - Labour Force Survey Report,False
+BT,Bhutan,2020,1.1570686160627506,BTN,268.488,1.3389587663648277,,LFS - Labour Force Survey Report,False
+BT,Bhutan,2021,0.8343014188861986,BTN,281.604,1.947678519204128,,LFS - Labour Force Survey Report,False
+BT,Bhutan,2022,0.3908620297339593,BTN,282.043,4.163832779232895,,LFS - Labour Force Survey Report,False
+BT,Bhutan,2023,0.7051198752941177,BTN,315.196,2.579402867841208,,LFS - Labour Force Survey Report,False
+BO,Bolivia,2019,5.993073593073593,BOL,451.315,0.4345418356351617,,LFS - Encuesta Continua de Empleo,False
+BO,Bolivia,2020,5.088849499999999,BOL,483.215,0.5479264145242603,,HIES - Household Survey,True
+BO,Bolivia,2021,2.1770539696969693,BOL,442.859,1.173809761703143,B,LFS - Encuesta Continua de Empleo,True
+BO,Bolivia,2022,2.603081,BOL,446.671,0.9901511859141576,,LFS - Encuesta Continua de Empleo,False
+BO,Bolivia,2023,1.8659419354838709,BOL,455.515,1.4086593908076608,,LFS - Encuesta Continua de Empleo,False
+BA,Bosnia and Herzegovina,2019,3.053031815385252,BIH,,,,,False
+BA,Bosnia and Herzegovina,2020,3.0428057,BIH,719.517,1.3644834599938236,B,LFS - Labour Force Survey,True
+BA,Bosnia and Herzegovina,2021,2.38536585,BIH,775.692,1.8764446235400492,B,LFS - Labour Force Survey,True
+BA,Bosnia and Herzegovina,2022,3.061268,BIH,730.003,1.3760199497673955,B,LFS - Labour Force Survey,True
+BA,Bosnia and Herzegovina,2023,1.027940625,BIH,827.942,4.647648995218535,B,LFS - Labour Force Survey,True
+BW,Botswana,2019,16.79091986111111,BWA,476.23,0.163660434048601,B,HS - Multi-Topic Household Survey,True
+BW,Botswana,2020,13.867310619,BWA,455.495,0.1895364786673908,,HS - Multi-Topic Household Survey,False
+BW,Botswana,2021,3.91693452,BWA,497.12,0.7323460808190964,,HS - Multi-Topic Household Survey,False
+BW,Botswana,2022,2.2201254,BWA,492.245,1.2793967560809207,,HS - Multi-Topic Household Survey,False
+BW,Botswana,2023,1.989852726666667,BWA,477.336,1.3842186369724845,,HS - Multi-Topic Household Survey,False
+BR,Brazil,2019,3.496360425783901,BRA,575.769,0.950240463227126,,HS - Pesquisa Nacional por Amostra de Domicílios Contínua,False
+BR,Brazil,2020,1.009450778331818,BRA,477.027,2.7268374575254675,,HS - Pesquisa Nacional por Amostra de Domicílios Contínua,False
+BR,Brazil,2021,0.92349346193,BRA,447.55,2.796463618745132,,HS - Pesquisa Nacional por Amostra de Domicílios Contínua,False
+BR,Brazil,2022,0.7403374733214286,BRA,506.271,3.945978874876457,,HS - Pesquisa Nacional por Amostra de Domicílios Contínua,False
+BR,Brazil,2023,0.4016053301,BRA,572.927,8.231922226290044,,HS - Pesquisa Nacional por Amostra de Domicílios Contínua,False
+IO,British Indian Ocean Territory,2019,9.30736246875,IOT,,,,,False
+IO,British Indian Ocean Territory,2020,7.5,IOT,,,,,False
+IO,British Indian Ocean Territory,2021,7.5,IOT,,,,,False
+IO,British Indian Ocean Territory,2022,6.146638199999999,IOT,,,,,False
+IO,British Indian Ocean Territory,2023,4.444444444444445,IOT,,,,,False
+BN,Brunei Darussalam,2019,8.512795567221044,BRN,,,,,False
+BN,Brunei Darussalam,2020,2.642153625,BRN,,,,,False
+BN,Brunei Darussalam,2021,2.2287789,BRN,,,,,False
+BN,Brunei Darussalam,2022,1.69909248,BRN,,,,,False
+BN,Brunei Darussalam,2023,1.89483935,BRN,,,,,False
+BG,Bulgaria,2019,11.506340639102469,,,,,,False
+BG,Bulgaria,2020,2.21716046008,,,,,,False
+BG,Bulgaria,2021,2.2641549175375,,,,,,False
+BG,Bulgaria,2022,0.90218484192,,,,,,False
+BG,Bulgaria,2023,,,,,,,False
+BF,Burkina Faso,2019,10.258809515909087,BFA,190.141,0.106949866046195,,HIES - Enquête Harmonisée sur les Conditions de Vie des Ménages,False
+BF,Burkina Faso,2020,2.474271,BFA,,,,,True
+BF,Burkina Faso,2021,4.515615,BFA,,,,,False
+BF,Burkina Faso,2022,4.59881661875,BFA,134.681,0.1689902613184313,,HIES - Enquête Harmonisée sur les Conditions de Vie des Ménages,False
+BF,Burkina Faso,2023,3.269178,BFA,170.906,0.3016617036339082,,LFS - Enquête Régionale Intégrée sur l'Emploi et le Secteur Informel,True
+BI,Burundi,2019,18.78591919127155,BDI,,,,,False
+BI,Burundi,2020,2.12178,BDI,50.57,0.1375289222072397,,HIES - Living Standards Measurement Survey,False
+BI,Burundi,2021,2.1004197500000004,BDI,,,,,True
+BI,Burundi,2022,1.8552569230769231,BDI,,,,,False
+BI,Burundi,2023,1.1021175,BDI,,,,,False
+KH,Cambodia,2019,10.1842898638125,KHM,263.228,0.1491429639480799,B,LFS - Labour Force Survey,True
+KH,Cambodia,2020,1.5,KHM,262.922,1.0114329678784382,,HIES - Household Socio-Economic Survey,True
+KH,Cambodia,2021,0.8333333333333334,KHM,263.818,1.8267836122331211,,HIES - Household Socio-Economic Survey,False
+KH,Cambodia,2022,0.4166666666666667,KHM,,,,,True
+KH,Cambodia,2023,0.12,KHM,278.827,13.407722638969032,,HIES - Household Socio-Economic Survey,False
+CM,Cameroon,2019,1.7133930555555554,CMR,,,,,False
+CM,Cameroon,2020,2.74919,CMR,,,,,False
+CM,Cameroon,2021,0.903123,CMR,,,,,False
+CM,Cameroon,2022,1.530634,CMR,,,,,False
+CM,Cameroon,2023,1.634589,CMR,,,,,False
+CA,Canada,2019,13.211805867431972,CAN,3375.195,1.474137936240772,,LFS - Labour Force Survey,False
+CA,Canada,2020,12.549,CAN,3557.316,1.6357418446521717,,LFS - Labour Force Survey,False
+CA,Canada,2021,5.7166859375,CAN,3883.894,3.920346665370485,,LFS - Labour Force Survey,False
+CA,Canada,2022,7.366174,CAN,3914.321,3.066308887208373,,LFS - Labour Force Survey,False
+CA,Canada,2023,5.366570535714285,CAN,3958.968,4.256832746158563,,LFS - Labour Force Survey,False
+CV,Cape Verde,2019,4.252903127307692,CPV,,,,,False
+CV,Cape Verde,2020,4.80816812,CPV,,,,,False
+CV,Cape Verde,2021,4.78163625,CPV,,,,,False
+CV,Cape Verde,2022,5.33631605,CPV,,,,,False
+CV,Cape Verde,2023,3.241373,CPV,,,,,False
+BQ,Caribbean Netherlands,2019,9.567644724556487,,,,,,False
+BQ,Caribbean Netherlands,2020,9.948333333333334,,,,,,False
+BQ,Caribbean Netherlands,2021,10.9375,,,,,,False
+BQ,Caribbean Netherlands,2022,8.568333333333335,,,,,,False
+BQ,Caribbean Netherlands,2023,2.710414666666667,,,,,,False
+KY,Cayman Islands,2019,26.786708177254585,CYM,,,,,False
+KY,Cayman Islands,2020,23.04781971428571,CYM,,,,,False
+KY,Cayman Islands,2021,11.965624194999998,CYM,,,,,False
+KY,Cayman Islands,2022,2.0,CYM,,,,,False
+KY,Cayman Islands,2023,8.391208,CYM,,,,,False
+CF,Central African Republic,2019,6.03225,CAF,,,,,False
+CF,Central African Republic,2020,8.24757,CAF,,,,,False
+CF,Central African Republic,2021,9.03123,CAF,,,,,False
+CF,Central African Republic,2022,10.42,CAF,,,,,False
+CF,Central African Republic,2023,10.89726,CAF,,,,,False
+TD,Chad,2019,23.33,TCD,,,,,False
+TD,Chad,2020,23.33,TCD,,,,,False
+TD,Chad,2021,23.33,TCD,,,,,False
+TD,Chad,2022,6.340838333333333,TCD,205.952,0.1874220874121365,,HIES - Enquête Modulaire et Intégrée sur les Conditions de Vie des Ménages,False
+TD,Chad,2023,4.0864725,TCD,,,,,True
+CL,Chile,2019,1.8733367999053483,CHL,1249.155,3.8477062027992304,,ES - Índice de Remuneraciones y Costo de la Mano de Obra,False
+CL,Chile,2020,0.7066227347826087,CHL,928.035,7.578411556831038,,HS - Encuesta de Caracterización Socioeconómica Nacional,True
+CL,Chile,2021,0.3936016666666667,CHL,976.252,14.31220160418841,,HIES - Supplemental Income Survey,True
+CL,Chile,2022,0.5063009239130435,CHL,871.126,9.928272609246568,,HS - Encuesta de Caracterización Socioeconómica Nacional,True
+CL,Chile,2023,0.6388888888888888,CHL,1078.724,9.742859580019568,,HIES - Supplemental Income Survey,True
+CN,China,2019,9.88961400245385,CHN,646.606,0.3772782998550684,,ADM - Labour and Social Security Records,False
+CN,China,2020,0.60711313,CHN,697.109,6.625711192935966,,ADM - Labour and Social Security Records,False
+CN,China,2021,0.5160506764285714,CHN,812.584,9.086096653808262,,ADM - Labour and Social Security Records,False
+CN,China,2022,0.4084602499999999,CHN,806.868,11.398668678972896,,ADM - Labour and Social Security Records,False
+CN,China,2023,0.37528315,CHN,,,,,True
+CX,Christmas Island,2019,,,,,,,False
+CX,Christmas Island,2020,,,,,,,False
+CX,Christmas Island,2021,,,,,,,False
+CX,Christmas Island,2022,,,,,,,False
+CX,Christmas Island,2023,,,,,,,False
+CC,Cocos (Keeling) Islands,2019,,,,,,,False
+CC,Cocos (Keeling) Islands,2020,16.9796594,,,,,,False
+CC,Cocos (Keeling) Islands,2021,13.470391666666664,,,,,,False
+CC,Cocos (Keeling) Islands,2022,4.26,,,,,,False
+CC,Cocos (Keeling) Islands,2023,3.034775,,,,,,False
+CO,Colombia,2019,3.216101943705022,COL,376.852,0.6761490703217172,,LFS - Gran Encuesta Integrada de Hogares,False
+CO,Colombia,2020,3.4554190476190474,COL,,,,,True
+CO,Colombia,2021,2.7982530000000003,COL,337.566,0.696102441192386,,LFS - Gran Encuesta Integrada de Hogares,False
+CO,Colombia,2022,0.4858769290865384,COL,369.91,4.393101438062612,B,LFS - Gran Encuesta Integrada de Hogares,True
+CO,Colombia,2023,0.198161925,COL,398.583,11.606465811314912,,LFS - Gran Encuesta Integrada de Hogares,False
+KM,Comoros,2019,5.272266578869049,COM,,,,,False
+KM,Comoros,2020,4.3830812,COM,,,,,False
+KM,Comoros,2021,3.213821333333333,COM,253.285,0.4547672472459078,,LFS - Enquête Nationale sur l'Emploi et le Secteur Informel,False
+KM,Comoros,2022,1.0841925,COM,,,,,True
+KM,Comoros,2023,2.17794,COM,,,,,False
+CG,Congo,2019,4.573385347905139,COG,,,,,False
+CG,Congo,2020,1.9361566666666667,COG,,,,,False
+CG,Congo,2021,2.877091842857143,COG,,,,,False
+CG,Congo,2022,1.034580485416667,COG,,,,,False
+CG,Congo,2023,0.6833995953124999,COG,,,,,False
+CD,Congo (Democratic Republic of),2019,,COD,,,,,False
+CD,Congo (Democratic Republic of),2020,,COD,,,,,False
+CD,Congo (Democratic Republic of),2021,,COD,,,,,False
+CD,Congo (Democratic Republic of),2022,,COD,,,,,False
+CD,Congo (Democratic Republic of),2023,0.5202702702702703,COD,,,,,False
+CK,Cook Islands,2019,5.561645338759741,COK,,,,,False
+CK,Cook Islands,2020,,COK,,,,,False
+CK,Cook Islands,2021,3.497375,COK,,,,,False
+CK,Cook Islands,2022,3.0,COK,,,,,False
+CK,Cook Islands,2023,2.623281458333333,COK,,,,,False
+CR,Costa Rica,2019,4.894898815789473,CRI,1132.145,1.3346265846783578,,LFS - Encuesta Continua de Empleo,False
+CR,Costa Rica,2020,2.74485036,CRI,1192.326,2.506558116155338,,LFS - Encuesta Continua de Empleo,False
+CR,Costa Rica,2021,2.358457111111111,CRI,1013.239,2.479050375671555,,LFS - Encuesta Continua de Empleo,False
+CR,Costa Rica,2022,2.333333333333333,CRI,950.801,2.35133377297832,,LFS - Encuesta Continua de Empleo,False
+CR,Costa Rica,2023,1.86353,CRI,1064.246,3.295391940372742,,LFS - Encuesta Continua de Empleo,False
+HR,Croatia,2019,3.995001677451334,HRV,1605.203,2.318539152005931,,HIES - EU Statistics on Income and Living Conditions,False
+HR,Croatia,2020,2.4790872,HRV,1733.06,4.033882398500143,,HIES - EU Statistics on Income and Living Conditions,False
+HR,Croatia,2021,2.3489950146666665,HRV,1915.651,4.7058245694563,,HIES - EU Statistics on Income and Living Conditions,False
+HR,Croatia,2022,1.8448746923076924,HRV,1771.233,5.540006304516827,,HIES - EU Statistics on Income and Living Conditions,False
+HR,Croatia,2023,1.1870316675,HRV,1547.203,7.521187765949192,,HIES - EU Statistics on Income and Living Conditions,False
+CU,Cuba,2019,,CUB,,,,,False
+CU,Cuba,2020,13.333333333333332,CUB,,,,,False
+CU,Cuba,2021,7.5,CUB,,,,,False
+CU,Cuba,2022,4.04377552,CUB,,,,,False
+CU,Cuba,2023,2.71459767260062,CUB,,,,,False
+CW,Curaçao,2019,16.913837675064816,CUW,,,,,False
+CW,Curaçao,2020,11.064076458333334,CUW,,,,,False
+CW,Curaçao,2021,6.466747803333333,CUW,,,,,False
+CW,Curaçao,2022,9.56655625,CUW,,,,,False
+CW,Curaçao,2023,2.6796145,CUW,,,,,False
+CY,Cyprus,2019,20.248562646811525,CYP,2349.058,0.6694235355581578,,HIES - EU Statistics on Income and Living Conditions,False
+CY,Cyprus,2020,13.556950049999998,CYP,2561.459,1.090251894742229,,HIES - EU Statistics on Income and Living Conditions,False
+CY,Cyprus,2021,8.84131255,CYP,2707.552,1.7671015177845684,,HIES - EU Statistics on Income and Living Conditions,False
+CY,Cyprus,2022,6.74025,CYP,2579.186,2.208045889113452,,HIES - EU Statistics on Income and Living Conditions,False
+CY,Cyprus,2023,2.40902330625,CYP,2731.294,6.542276369178114,,HIES - EU Statistics on Income and Living Conditions,False
+CZ,Czech Republic,2019,32.71303672869444,CZE,1863.563,0.3287188850539286,,HIES - EU Statistics on Income and Living Conditions,False
+CZ,Czech Republic,2020,7.949556853333334,CZE,2073.919,1.5053944410605824,,HIES - EU Statistics on Income and Living Conditions,False
+CZ,Czech Republic,2021,8.147376458333335,CZE,2174.277,1.5399212969912743,,HIES - EU Statistics on Income and Living Conditions,False
+CZ,Czech Republic,2022,3.954137833333333,CZE,2075.124,3.028263672349327,,HIES - EU Statistics on Income and Living Conditions,False
+CZ,Czech Republic,2023,3.1210585725000004,CZE,2371.494,4.384514880916277,,HIES - EU Statistics on Income and Living Conditions,False
+CI,Côte d'Ivoire,2019,6.175919111111111,CIV,230.633,0.2154871048473597,,LFS - Enquête Nationale sur la Situacion de l'Emploi,False
+CI,Côte d'Ivoire,2020,3.204103137735849,CIV,,,,,True
+CI,Côte d'Ivoire,2021,2.5800933934285712,CIV,,,,,False
+CI,Côte d'Ivoire,2022,4.0413220171875,CIV,206.734,0.295182011612723,,HIES - Living Standards Measurement Survey,False
+CI,Côte d'Ivoire,2023,1.1815046289978677,CIV,,,,,True
+DK,Denmark,2019,1.3608564595238095,DNK,5265.719,22.327844448136453,,HIES - EU Statistics on Income and Living Conditions,False
+DK,Denmark,2020,0.7962572493333334,DNK,5876.333,42.584782790321,,HIES - EU Statistics on Income and Living Conditions,False
+DK,Denmark,2021,0.78766974,DNK,6509.19,47.68526762790062,,HIES - EU Statistics on Income and Living Conditions,False
+DK,Denmark,2022,0.4339624499999999,DNK,5887.973,78.29158668202165,,HIES - EU Statistics on Income and Living Conditions,False
+DK,Denmark,2023,0.6921013199999999,DNK,6101.935,50.874404276961805,,HIES - EU Statistics on Income and Living Conditions,False
+DJ,Djibouti,2019,37.924825438,DJI,,,,,False
+DJ,Djibouti,2020,1.124,DJI,,,,,False
+DJ,Djibouti,2021,1.12034398,DJI,,,,,False
+DJ,Djibouti,2022,1.1160382,DJI,,,,,False
+DJ,Djibouti,2023,1.262464425,DJI,,,,,False
+DM,Dominica,2019,14.604057401586914,DMA,,,,,False
+DM,Dominica,2020,4.92127797,DMA,,,,,False
+DM,Dominica,2021,1.7647150615384617,DMA,,,,,False
+DM,Dominica,2022,1.138525846153846,DMA,,,,,False
+DM,Dominica,2023,1.1100626999999998,DMA,,,,,False
+DO,Dominican Republic,2019,1.2791250619685184,DOM,329.166,1.484921170780671,,LFS - Encuesta Nacional Continua de Fuerza de Trabajo,False
+DO,Dominican Republic,2020,0.7394467313333333,DOM,339.791,2.651590261735158,B,LFS - Encuesta Nacional Continua de Fuerza de Trabajo,True
+DO,Dominican Republic,2021,1.514284304357143,DOM,357.797,1.3634232990984514,,LFS - Encuesta Nacional Continua de Fuerza de Trabajo,False
+DO,Dominican Republic,2022,0.9436168625,DOM,409.906,2.5066287669622684,,LFS - Encuesta Nacional Continua de Fuerza de Trabajo,False
+DO,Dominican Republic,2023,0.79240275,DOM,454.947,3.31296058317002,,LFS - Encuesta Nacional Continua de Fuerza de Trabajo,False
+EC,Ecuador,2019,6.925711904440166,ECU,512.064,0.4266396946628361,,"LFS - Encuesta Nacional de Empleo, Desempleo y SubEmpleo",False
+EC,Ecuador,2020,3.241041666666667,ECU,472.334,0.8409419768288023,B,"LFS - Encuesta Nacional de Empleo, Desempleo y SubEmpleo",True
+EC,Ecuador,2021,1.06,ECU,482.378,2.62592951474703,,"LFS - Encuesta Nacional de Empleo, Desempleo y SubEmpleo",False
+EC,Ecuador,2022,1.0,ECU,499.383,2.881609924985574,,"LFS - Encuesta Nacional de Empleo, Desempleo y SubEmpleo",False
+EC,Ecuador,2023,1.0,ECU,509.086,2.937599538372764,,"LFS - Encuesta Nacional de Empleo, Desempleo y SubEmpleo",False
+EG,Egypt,2019,1.49293765513565,EGY,154.59,0.5975044752272854,,LFS - Labour Force Sample Survey,False
+EG,Egypt,2020,1.08578124,EGY,171.675,0.9123598384962052,,LFS - Labour Force Sample Survey,False
+EG,Egypt,2021,1.0385337351190478,EGY,186.189,1.0345103695047608,,LFS - Labour Force Sample Survey,False
+EG,Egypt,2022,0.9272653075,EGY,169.168,1.0527267065475134,,LFS - Labour Force Sample Survey,False
+EG,Egypt,2023,0.6471402800000001,EGY,126.988,1.132310900312976,,LFS - Labour Force Sample Survey,False
+SV,El Salvador,2019,4.550329394473839,SLV,380.287,0.4822476063836265,,HS - Encuesta de Hogares de Propósitos Múltiples,False
+SV,El Salvador,2020,1.45,SLV,,,,,True
+SV,El Salvador,2021,1.3333333333333333,SLV,390.652,1.6906462781304097,,HS - Encuesta de Hogares de Propósitos Múltiples,False
+SV,El Salvador,2022,1.2684285714285717,SLV,414.734,1.8867096107200565,,HS - Encuesta de Hogares de Propósitos Múltiples,False
+SV,El Salvador,2023,1.0796,SLV,450.144,2.405968999225419,,HS - Encuesta de Hogares de Propósitos Múltiples,False
+GQ,Equatorial Guinea,2019,47.391666666666666,GNQ,,,,,False
+GQ,Equatorial Guinea,2020,12.7837335,GNQ,,,,,False
+GQ,Equatorial Guinea,2021,49.671765,GNQ,,,,,False
+GQ,Equatorial Guinea,2022,38.4515625,GNQ,,,,,False
+GQ,Equatorial Guinea,2023,1.58918375,GNQ,388.309,1.4099534618527656,,HIES - Encuesta Nacional de Hogares,False
+ER,Eritrea,2019,,,,,,,False
+ER,Eritrea,2020,,,,,,,False
+ER,Eritrea,2021,,,,,,,False
+ER,Eritrea,2022,,,,,,,False
+ER,Eritrea,2023,,,,,,,False
+EE,Estonia,2019,3.667501281333333,EST,1896.032,2.983161914610419,,HIES - EU Statistics on Income and Living Conditions,False
+EE,Estonia,2020,1.2748632499999997,EST,2193.462,9.928141315806034,,HIES - EU Statistics on Income and Living Conditions,False
+EE,Estonia,2021,1.3902364999999997,EST,2417.809,10.035401223664698,,HIES - EU Statistics on Income and Living Conditions,False
+EE,Estonia,2022,1.201422,EST,2245.713,10.785992401658392,,HIES - EU Statistics on Income and Living Conditions,False
+EE,Estonia,2023,1.148477471875,EST,2615.23,13.139802760469244,,HIES - EU Statistics on Income and Living Conditions,False
+SZ,Eswatini,2019,5.248524251361231,SWZ,,,,,False
+SZ,Eswatini,2020,13.3064125,SWZ,,,,,False
+SZ,Eswatini,2021,2.2400276666666668,SWZ,377.922,0.9735319951751836,,LFS - Labour Force Survey,False
+SZ,Eswatini,2022,0.8440405672049999,SWZ,,,,,True
+SZ,Eswatini,2023,1.25712068515,SWZ,384.47,1.7647651645952058,,LFS - Labour Force Survey,False
+ET,Ethiopia,2019,2.0638418414018966,ETH,,,,,False
+ET,Ethiopia,2020,2.4406785,ETH,,,,,False
+ET,Ethiopia,2021,1.71019894375,ETH,95.943,0.3237189309617443,,LFS - National Labor Force Survey,False
+ET,Ethiopia,2022,0.9989049,ETH,,,,,True
+ET,Ethiopia,2023,0.6846888929999999,ETH,,,,,False
+FK,Falkland Islands,2019,55.46979166666667,FLK,,,,,False
+FK,Falkland Islands,2020,40.407575,FLK,,,,,False
+FK,Falkland Islands,2021,44.55867,FLK,,,,,False
+FK,Falkland Islands,2022,5.102163333333333,FLK,,,,,False
+FK,Falkland Islands,2023,40.5793375,FLK,,,,,False
+FO,Faroe Islands,2019,9.783157013524283,FRO,,,,,False
+FO,Faroe Islands,2020,2.41495804,FRO,,,,,False
+FO,Faroe Islands,2021,2.64147832,FRO,,,,,False
+FO,Faroe Islands,2022,1.9551067058823528,FRO,,,,,False
+FO,Faroe Islands,2023,2.236087905882353,FRO,,,,,False
+FJ,Fiji,2019,3.5732325958333333,FJI,,,,,False
+FJ,Fiji,2020,0.588254212,FJI,,,,,False
+FJ,Fiji,2021,0.19363944,FJI,,,,,False
+FJ,Fiji,2022,0.1493007333333333,FJI,,,,,False
+FJ,Fiji,2023,0.08800002,FJI,,,,,False
+FI,Finland,2019,1.161177865384615,FIN,4624.014,22.978508135038084,,HIES - EU Statistics on Income and Living Conditions,False
+FI,Finland,2020,2.14285525,FIN,4831.903,13.011483314981064,,HIES - EU Statistics on Income and Living Conditions,False
+FI,Finland,2021,0.9745752617079888,FIN,5095.758,30.171357376463483,,HIES - EU Statistics on Income and Living Conditions,False
+FI,Finland,2022,7.468389222222222,FIN,4865.181,3.7590101273456655,,HIES - EU Statistics on Income and Living Conditions,False
+FI,Finland,2023,0.5193867318181817,FIN,5146.598,57.17824657509852,,HIES - EU Statistics on Income and Living Conditions,False
+FR,France,2019,1.2136311912483682,FRA,2223.645,10.572560084694484,,LFS - Enquête sur l'emploi,False
+FR,France,2020,0.8134712524999999,FRA,2302.161,16.330328453631143,,LFS - Enquête sur l'emploi,False
+FR,France,2021,0.413994682,FRA,2348.583,32.7350182852968,,LFS - Enquête sur l'emploi,False
+FR,France,2022,0.2275420454545454,FRA,2135.278,54.149469347375,,LFS - Enquête sur l'emploi,False
+FR,France,2023,0.1977458792307692,FRA,2286.792,66.7299284812662,,LFS - Enquête sur l'emploi,False
+GF,French Guiana,2019,13.406361648875,,,,,,False
+GF,French Guiana,2020,3.6130167,,,,,,False
+GF,French Guiana,2021,1.5767845466666666,,,,,,False
+GF,French Guiana,2022,1.5007763150000002,,,,,,False
+GF,French Guiana,2023,0.4929222,,,,,,False
+PF,French Polynesia,2019,4.960541863787202,PYF,,,,,False
+PF,French Polynesia,2020,15.42358609,PYF,,,,,False
+PF,French Polynesia,2021,4.200801555000001,PYF,,,,,False
+PF,French Polynesia,2022,0.74244852,PYF,,,,,False
+PF,French Polynesia,2023,0.7463874166666666,PYF,,,,,False
+TF,French Southern and Antarctic Lands,2019,,,,,,,False
+TF,French Southern and Antarctic Lands,2020,,,,,,,False
+TF,French Southern and Antarctic Lands,2021,,,,,,,False
+TF,French Southern and Antarctic Lands,2022,,,,,,,False
+TF,French Southern and Antarctic Lands,2023,,,,,,,False
+GA,Gabon,2019,3.387384120918615,GAB,,,,,False
+GA,Gabon,2020,4.894162417582417,GAB,,,,,False
+GA,Gabon,2021,4.816656,GAB,,,,,False
+GA,Gabon,2022,5.0,GAB,,,,,False
+GA,Gabon,2023,4.0864725,GAB,,,,,False
+GM,Gambia,2019,6.886085686411168,GMB,,,,,False
+GM,Gambia,2020,5.09803918,GMB,,,,,False
+GM,Gambia,2021,5.86281,GMB,,,,,False
+GM,Gambia,2022,5.721772275,GMB,,,,,False
+GM,Gambia,2023,3.556473695833333,GMB,,,,,False
+GE,Georgia,2019,5.629382709059234,GEO,212.674,0.2179992813256063,,HIES - Household Income and Expenditure Survey	HIES,False
+GE,Georgia,2020,0.93457941,GEO,197.361,1.2185590110202968,,HIES - Household Income and Expenditure Survey	HIES,False
+GE,Georgia,2021,1.79640714,GEO,206.036,0.6618198283124356,,HIES - Household Income and Expenditure Survey	HIES,False
+GE,Georgia,2022,1.0347560416666668,GEO,255.676,1.4257829918441691,,HIES - Household Income and Expenditure Survey	HIES,False
+GE,Georgia,2023,1.908508,GEO,329.902,0.9974529083265328,,HIES - Household Income and Expenditure Survey	HIES,False
+DE,Germany,2019,6.957940938016573,DEU,3442.079,2.8545754933866,,HIES - EU Statistics on Income and Living Conditions,False
+DE,Germany,2020,4.0592188375,DEU,5169.927,7.34925612201479,,HIES - EU Statistics on Income and Living Conditions,True
+DE,Germany,2021,3.3754435142857138,DEU,5119.746,8.752235761889334,,HIES - EU Statistics on Income and Living Conditions,False
+DE,Germany,2022,2.9569962,DEU,4646.541,9.067351349753386,,HIES - EU Statistics on Income and Living Conditions,False
+DE,Germany,2023,2.140461075,DEU,,,,,True
+GH,Ghana,2019,1.5579088596421675,GHA,,,,,False
+GH,Ghana,2020,0.9372645000000002,GHA,,,,,False
+GH,Ghana,2021,0.6630910363636363,GHA,,,,,False
+GH,Ghana,2022,0.6087312573611111,GHA,217.253,2.059404307965379,,HIES - Household Income and Expenditure Survey,False
+GH,Ghana,2023,0.4031761365079365,GHA,280.929,4.020714088742837,,HIES - Household Income and Expenditure Survey,False
+GI,Gibraltar,2019,3.100678322435897,GIB,,,,,False
+GI,Gibraltar,2020,7.3812,GIB,,,,,False
+GI,Gibraltar,2021,2.77886,GIB,,,,,False
+GI,Gibraltar,2022,1.2612932944444442,GIB,,,,,False
+GI,Gibraltar,2023,0.6709333333333334,GIB,,,,,False
+GR,Greece,2019,4.909424217307386,GRC,991.344,1.1651860034796508,,LFS - Labour Force Survey,False
+GR,Greece,2020,12.063280483333331,GRC,1034.333,0.4947620638519854,,LFS - Labour Force Survey,False
+GR,Greece,2021,8.163942,GRC,2286.766,1.6163047642526895,,HIES - EU Statistics on Income and Living Conditions,True
+GR,Greece,2022,6.717534999999999,GRC,1962.699,1.6859519795645923,,HIES - EU Statistics on Income and Living Conditions,False
+GR,Greece,2023,2.786082,GRC,2047.151,4.239917641596745,,HIES - EU Statistics on Income and Living Conditions,False
+GL,Greenland,2019,11.123015873015872,GRL,,,,,False
+GL,Greenland,2020,9.556784251666668,GRL,,,,,False
+GL,Greenland,2021,3.97017374,GRL,,,,,False
+GL,Greenland,2022,4.43758578125,GRL,,,,,False
+GL,Greenland,2023,3.5844168,GRL,,,,,False
+GD,Grenada,2019,12.00237712636584,GRD,,,,,False
+GD,Grenada,2020,5.36530305,GRD,,,,,False
+GD,Grenada,2021,2.44213794,GRD,,,,,False
+GD,Grenada,2022,2.5901463,GRD,,,,,False
+GD,Grenada,2023,1.8092788607,GRD,,,,,False
+GP,Guadeloupe,2019,6.062975942555556,,,,,,False
+GP,Guadeloupe,2020,2.423144333333333,,,,,,False
+GP,Guadeloupe,2021,0.8873849999999999,,,,,,False
+GP,Guadeloupe,2022,1.1,,,,,,False
+GP,Guadeloupe,2023,0.4929222,,,,,,False
+GU,Guam,2019,4.26329135147436,GUM,,,,,False
+GU,Guam,2020,2.0,GUM,,,,,False
+GU,Guam,2021,2.142857142857143,GUM,,,,,False
+GU,Guam,2022,2.2707207692307696,GUM,,,,,False
+GU,Guam,2023,2.5,GUM,,,,,False
+GT,Guatemala,2019,4.844725748244277,GTM,357.388,0.4256691792147142,,LFS - Encuesta Nacional de Empleo e Ingresos,False
+GT,Guatemala,2020,2.170608333333333,GTM,,,,,True
+GT,Guatemala,2021,1.9375424891666664,GTM,359.542,1.0707789675349704,,LFS - Encuesta Nacional de Empleo e Ingresos,False
+GT,Guatemala,2022,1.281996,GTM,384.877,1.732354329816913,B,LFS - Encuesta Nacional de Empleo e Ingresos,True
+GT,Guatemala,2023,1.1742616,GTM,356.567,1.7521759915048,,HIES - Encuesta nacional de Ingresos y Gastos de los hogares,True
+GG,Guernsey,2019,3.052922463768116,GGY,,,,,False
+GG,Guernsey,2020,1.24331,GGY,,,,,False
+GG,Guernsey,2021,1.459810581,GGY,,,,,False
+GG,Guernsey,2022,1.43347425,GGY,,,,,False
+GG,Guernsey,2023,1.6930948199999998,GGY,,,,,False
+GN,Guinea,2019,4.525073406505933,GIN,168.835,0.2152971548460749,,LFS - Enquête Nationale sur l'Emploi et le Secteur Informel,False
+GN,Guinea,2020,2.08282725,GIN,,,,,True
+GN,Guinea,2021,1.985708,GIN,,,,,False
+GN,Guinea,2022,1.7366615576923077,GIN,,,,,False
+GN,Guinea,2023,1.5124148,GIN,,,,,False
+GW,Guinea-Bissau,2019,11.707033237885714,GNB,154.61,0.0762065263555196,,HIES - Enquête harmonisée sur les conditions de vie des ménages,False
+GW,Guinea-Bissau,2020,4.123785,GNB,,,,,True
+GW,Guinea-Bissau,2021,4.4097802734375,GNB,,,,,False
+GW,Guinea-Bissau,2022,1.530649,GNB,140.985,0.5314944499721707,,HIES - Enquête harmonisée sur les conditions de vie des ménages,False
+GW,Guinea-Bissau,2023,2.7243150000000003,GNB,,,,,True
+GY,Guyana,2019,12.297911551166663,GUY,392.905,0.1843561490183408,,LFS - Labour Force Survey,False
+GY,Guyana,2020,5.4626963775,GUY,400.774,0.4233444921208214,,LFS - Labour Force Survey,False
+GY,Guyana,2021,5.251932400000001,GUY,423.969,0.4658181568145747,,LFS - Labour Force Survey,False
+GY,Guyana,2022,5.460281415649999,GUY,,,,,True
+GY,Guyana,2023,2.3592455938988093,GUY,,,,,False
+HT,Haiti,2019,1.251203386898152,HTI,,,,,False
+HT,Haiti,2020,2.7356773333333337,HTI,,,,,False
+HT,Haiti,2021,0.8451886666666668,HTI,,,,,False
+HT,Haiti,2022,0.3672480428571429,HTI,,,,,False
+HT,Haiti,2023,0.21945147,HTI,,,,,False
+HN,Honduras,2019,4.694344946321167,HND,299.431,0.3680638792136297,,HS - Encuesta Permanente de Hogares de Propósitos Múltiples,False
+HN,Honduras,2020,3.12375,HND,337.498,0.6234424525724889,B,HS - Encuesta Permanente de Hogares de Propósitos Múltiples,True
+HN,Honduras,2021,1.5621041666666666,HND,350.309,1.2940252230699751,,HS - Encuesta Permanente de Hogares de Propósitos Múltiples,False
+HN,Honduras,2022,0.7634545454545455,HND,376.44,2.8452079720572048,,HS - Encuesta Permanente de Hogares de Propósitos Múltiples,False
+HN,Honduras,2023,0.7841515151515152,HND,387.887,2.8543463895880463,,HS - Encuesta Permanente de Hogares de Propósitos Múltiples,False
+HK,Hong Kong,2019,7.15198763761731,HKG,,,,,False
+HK,Hong Kong,2020,2.5544930400000005,HKG,,,,,False
+HK,Hong Kong,2021,2.302736488888889,HKG,,,,,False
+HK,Hong Kong,2022,1.24839946,HKG,,,,,False
+HK,Hong Kong,2023,0.8153592221666667,HKG,,,,,False
+HU,Hungary,2019,2.907793325,HUN,1262.655,2.505662681856538,,HIES - EU Statistics on Income and Living Conditions,False
+HU,Hungary,2020,5.32113049,HUN,1117.835,1.212202656774633,,HIES - EU Statistics on Income and Living Conditions,False
+HU,Hungary,2021,1.7020704750000002,HUN,1046.184,3.54676139566627,,HIES - EU Statistics on Income and Living Conditions,False
+HU,Hungary,2022,1.2731901,HUN,1010.914,4.58165512421028,,HIES - EU Statistics on Income and Living Conditions,False
+HU,Hungary,2023,1.714553125,HUN,1024.331,3.447393094674515,,HIES - EU Statistics on Income and Living Conditions,False
+IS,Iceland,2019,3.781503321314782,ISL,6399.484,9.765217229015304,,HIES - EU Statistics on Income and Living Conditions,False
+IS,Iceland,2020,1.4591661030000005,ISL,6348.606,25.10585870117502,,HIES - EU Statistics on Income and Living Conditions,False
+IS,Iceland,2021,1.2293787961,ISL,,,,,True
+IS,Iceland,2022,1.013047833,ISL,,,,,False
+IS,Iceland,2023,1.0816144087,ISL,,,,,False
+IN,India,2019,0.2589651532958861,IND,224.358,4.999213315859996,,LFS - Periodic Labour Force Survey,False
+IN,India,2020,0.0874094887999999,IND,229.921,15.178242829677217,,LFS - Periodic Labour Force Survey,False
+IN,India,2021,0.6790075416470589,IND,237.873,2.021491824014094,,LFS - Periodic Labour Force Survey,False
+IN,India,2022,0.1657968839999999,IND,239.165,8.32382033033233,,LFS - Periodic Labour Force Survey,False
+IN,India,2023,0.160081758,IND,239.512,8.633499526417813,,LFS - Periodic Labour Force Survey,False
+ID,Indonesia,2019,2.9880951457157443,IDN,183.02,0.3534317542361505,,LFS - National Labour Force Survey,False
+ID,Indonesia,2020,0.6377222313,IDN,175.66,1.5894349510067085,,LFS - National Labour Force Survey,False
+ID,Indonesia,2021,0.415280952,IDN,175.53,2.438994262379973,B,LFS - National Labour Force Survey,True
+ID,Indonesia,2022,0.461141775,IDN,181.149,2.2667462781760106,,LFS - National Labour Force Survey,False
+ID,Indonesia,2023,0.2757825952380952,IDN,182.329,3.814963025551004,,LFS - National Labour Force Survey,False
+IR,Iran,2019,1.8764898680219049,IRN,,,,,False
+IR,Iran,2020,0.7544404156114286,IRN,,,,,False
+IR,Iran,2021,1.52090010255,IRN,,,,,False
+IR,Iran,2022,1.3134592187499998,IRN,,,,,False
+IR,Iran,2023,1.49848174,IRN,,,,,False
+IQ,Iraq,2019,7.998892910059524,IRQ,,,,,False
+IQ,Iraq,2020,4.2041,IRQ,,,,,False
+IQ,Iraq,2021,1.1395588333333333,IRQ,,,,,False
+IQ,Iraq,2022,0.6805032,IRQ,,,,,False
+IQ,Iraq,2023,1.06790264,IRQ,,,,,False
+IE,Ireland,2019,3.9499543972896816,IRL,3970.042,5.799685676589461,,HIES - EU Statistics on Income and Living Conditions,False
+IE,Ireland,2020,1.3562374999999998,IRL,4539.668,19.314780700551,,HIES - EU Statistics on Income and Living Conditions,False
+IE,Ireland,2021,1.41804123,IRL,5018.193,20.42019755253604,,HIES - EU Statistics on Income and Living Conditions,False
+IE,Ireland,2022,1.583040349166667,IRL,4626.767,16.86502860604899,,HIES - EU Statistics on Income and Living Conditions,False
+IE,Ireland,2023,1.49805486,IRL,4859.862,18.719647076501957,,HIES - EU Statistics on Income and Living Conditions,False
+IM,Isle of Man,2019,3.3253265344179894,IMN,,,,,False
+IM,Isle of Man,2020,1.6577466666666665,IMN,,,,,False
+IM,Isle of Man,2021,1.7978852079999998,IMN,,,,,False
+IM,Isle of Man,2022,2.038296380833333,IMN,,,,,False
+IM,Isle of Man,2023,1.441620381308591,IMN,,,,,False
+IL,Israel,2019,0.9012511854514288,ISR,,,,,False
+IL,Israel,2020,0.1137095496599999,ISR,,,,,False
+IL,Israel,2021,0.05313966,ISR,3383.074,367.3619429976805,,HIES - Income Survey,False
+IL,Israel,2022,0.0419930428956521,ISR,,,,,True
+IL,Israel,2023,0.0218949742499999,ISR,,,,,False
+IT,Italy,2019,1.7253315102543283,ITA,1516.891,5.073214882849952,,LFS - Labour Force Survey,False
+IT,Italy,2020,0.4335439208333333,ITA,1559.659,20.75859672704605,,LFS - Labour Force Survey,False
+IT,Italy,2021,0.2656239099999999,ITA,3640.15,79.07761311616328,,HIES - EU Statistics on Income and Living Conditions,True
+IT,Italy,2022,0.11999202225,ITA,3281.357,157.79838253600786,,HIES - EU Statistics on Income and Living Conditions,False
+IT,Italy,2023,0.0856184429999999,ITA,3464.158,233.470387132489,,HIES - EU Statistics on Income and Living Conditions,False
+JM,Jamaica,2019,2.4328428910115,JAM,,,,,False
+JM,Jamaica,2020,3.88474692,JAM,,,,,False
+JM,Jamaica,2021,2.7420276,JAM,,,,,False
+JM,Jamaica,2022,1.2076729318181816,JAM,,,,,False
+JM,Jamaica,2023,0.6974122680000001,JAM,,,,,False
+JP,Japan,2019,10.396665036032433,JPN,2807.091,1.5579871707163642,,ES - Wage Structure Survey,False
+JP,Japan,2020,3.912519321904762,JPN,2881.772,4.250152950409277,,ES - Wage Structure Survey,False
+JP,Japan,2021,3.382555911428572,JPN,2800.801,4.777918156012762,,ES - Wage Structure Survey,False
+JP,Japan,2022,5.0,JPN,,,,,True
+JP,Japan,2023,3.4815806666666664,JPN,,,,,False
+JE,Jersey,2019,3.8150291666666662,JEY,,,,,False
+JE,Jersey,2020,1.710172905,JEY,,,,,False
+JE,Jersey,2021,1.3227069809999998,JEY,,,,,False
+JE,Jersey,2022,1.183125,JEY,,,,,False
+JE,Jersey,2023,1.3128976425,JEY,,,,,False
+JO,Jordan,2019,1.7944329759751596,JOR,450.748,1.449465904839468,,LFS - Employment and Unemployment Survey,False
+JO,Jordan,2020,1.0343204666666663,JOR,453.142,2.5280207600066715,,LFS - Employment and Unemployment Survey,False
+JO,Jordan,2021,1.410853,JOR,474.731,1.9416335310695303,,LFS - Employment and Unemployment Survey,False
+JO,Jordan,2022,0.6333333333333333,JOR,479.641,4.370039784978893,,LFS - Employment and Unemployment Survey,False
+JO,Jordan,2023,0.7572644636363636,JOR,480.841,3.6639990460353,,LFS - Employment and Unemployment Survey,False
+KZ,Kazakhstan,2019,0.4943763157619375,KAZ,488.09,5.696966825649836,,ADM-EBR - Businesses and Organizations register,False
+KZ,Kazakhstan,2020,0.4640046379999999,KAZ,515.804,6.414514946112339,,ADM-EBR - Businesses and Organizations register,False
+KZ,Kazakhstan,2021,0.59073994875,KAZ,,,,,True
+KZ,Kazakhstan,2022,0.3725803033333333,KAZ,673.382,10.429009151038905,,ADM-EBR - Businesses and Organizations register,False
+KZ,Kazakhstan,2023,0.4100254035636364,KAZ,,,,,True
+KE,Kenya,2019,2.7319008455951383,KEN,136.608,0.2885443918934401,,HS - Continuous household survey,False
+KE,Kenya,2020,1.0470851105,KEN,,,,,True
+KE,Kenya,2021,2.2501849895507813,KEN,,,,,False
+KE,Kenya,2022,0.8397486875,KEN,,,,,False
+KE,Kenya,2023,0.5893984275,KEN,,,,,False
+KI,Kiribati,2019,11.04814952222149,KIR,346.92,0.1811929232961276,,HIES - Household Income and Expenditure Survey,False
+KI,Kiribati,2020,10.495225,KIR,,,,,True
+KI,Kiribati,2021,9.93940625,KIR,,,,,False
+KI,Kiribati,2022,4.3024002525,KIR,,,,,False
+KI,Kiribati,2023,3.1945,KIR,357.734,0.6461878136081589,,HIES - Household Income and Expenditure Survey,False
+XK,Kosovo,2019,,XKX,,,,,False
+XK,Kosovo,2020,,XKX,,,,,False
+XK,Kosovo,2021,,XKX,,,,,False
+XK,Kosovo,2022,1.203347355769231,XKX,,,,,False
+XK,Kosovo,2023,1.250165,XKX,,,,,False
+KW,Kuwait,2019,2.0121437129629625,KWT,,,,,False
+KW,Kuwait,2020,0.7729704,KWT,,,,,False
+KW,Kuwait,2021,0.8066465110891089,KWT,,,,,False
+KW,Kuwait,2022,0.71391474,KWT,,,,,False
+KW,Kuwait,2023,0.51872256,KWT,,,,,False
+KG,Kyrgyzstan,2019,0.2691199687380952,KGZ,233.374,5.003892645027181,,"ES - Survey of enterprises, institutions and organisations",False
+KG,Kyrgyzstan,2020,0.2073522833333333,KGZ,222.351,6.187734944565897,,LFS - Employment and Unemployment Survey,True
+KG,Kyrgyzstan,2021,0.150353763,KGZ,,,,,True
+KG,Kyrgyzstan,2022,0.1669786338,KGZ,329.116,11.3733794818645,,"ES - Survey of enterprises, institutions and organisations",False
+KG,Kyrgyzstan,2023,0.1744647058,KGZ,,,,,True
+LA,Lao People's Democratic Republic,2019,3.4177217968966134,LAO,,,,,False
+LA,Lao People's Democratic Republic,2020,4.15774074074074,LAO,,,,,False
+LA,Lao People's Democratic Republic,2021,3.191163,LAO,,,,,False
+LA,Lao People's Democratic Republic,2022,0.991497,LAO,178.408,1.0383035944829304,B,LFS - Labour Force Survey,True
+LA,Lao People's Democratic Republic,2023,0.2524185,LAO,,,,,True
+LV,Latvia,2019,18.12102,LVA,1543.402,0.4914709542478563,,HIES - EU Statistics on Income and Living Conditions,False
+LV,Latvia,2020,3.79095506,LVA,1671.168,2.543741130313016,,HIES - EU Statistics on Income and Living Conditions,False
+LV,Latvia,2021,3.4874230499999994,LVA,1860.653,3.078663275301486,,HIES - EU Statistics on Income and Living Conditions,False
+LV,Latvia,2022,3.849604035095238,LVA,1704.944,2.555615392815064,,HIES - EU Statistics on Income and Living Conditions,False
+LV,Latvia,2023,3.20935215,LVA,1963.152,3.529701592662033,,HIES - EU Statistics on Income and Living Conditions,False
+LB,Lebanon,2019,5.84133923076923,LBN,780.073,0.7705915729409892,B,LFS - Labour Force Survey,True
+LB,Lebanon,2020,3.8166666666666655,LBN,,,,,True
+LB,Lebanon,2021,4.81,LBN,,,,,False
+LB,Lebanon,2022,3.671011666666667,LBN,,,,,False
+LB,Lebanon,2023,1.9142857142857144,LBN,,,,,False
+LS,Lesotho,2019,7.194197756949407,LSO,231.907,0.1860085568909436,,LFS - Integrated Labour Force Survey,False
+LS,Lesotho,2020,2.1302336,LSO,,,,,True
+LS,Lesotho,2021,2.661253921333333,LSO,,,,,False
+LS,Lesotho,2022,2.416467,LSO,,,,,False
+LS,Lesotho,2023,1.9561735703125,LSO,,,,,False
+LR,Liberia,2019,3.7533486394557833,LBR,,,,,False
+LR,Liberia,2020,3.25,LBR,,,,,False
+LR,Liberia,2021,2.586769869818431,LBR,,,,,False
+LR,Liberia,2022,2.92193775,LBR,,,,,False
+LR,Liberia,2023,2.5,LBR,,,,,False
+LY,Libya,2019,4.870197538461539,LBY,,,,,False
+LY,Libya,2020,4.7309980000000005,LBY,,,,,False
+LY,Libya,2021,0.7383669999999999,LBY,,,,,False
+LY,Libya,2022,0.6135885,LBY,,,,,False
+LY,Libya,2023,0.8246536,LBY,,,,,False
+LI,Liechtenstein,2019,7.986620322154473,LIE,,,,,False
+LI,Liechtenstein,2020,4.00532198,LIE,,,,,False
+LI,Liechtenstein,2021,3.1016863,LIE,,,,,False
+LI,Liechtenstein,2022,5.184940053333333,LIE,,,,,False
+LI,Liechtenstein,2023,1.18972765325,LIE,,,,,False
+LT,Lithuania,2019,2.062691926704545,LTU,1326.289,3.710267619766111,,HIES - EU Statistics on Income and Living Conditions,False
+LT,Lithuania,2020,1.852620425,LTU,1494.701,4.655531983074636,,HIES - EU Statistics on Income and Living Conditions,False
+LT,Lithuania,2021,1.3803766666666666,LTU,1746.962,7.302764337292556,,HIES - EU Statistics on Income and Living Conditions,False
+LT,Lithuania,2022,1.16736884,LTU,1660.695,8.208866988223269,,HIES - EU Statistics on Income and Living Conditions,False
+LT,Lithuania,2023,1.2623094599999998,LTU,1947.667,8.903285628073112,,HIES - EU Statistics on Income and Living Conditions,False
+LU,Luxembourg,2019,13.94533910830392,LUX,6930.449,2.867700088995954,,HIES - EU Statistics on Income and Living Conditions,False
+LU,Luxembourg,2020,3.8874287541666654,LUX,7202.091,10.690489691408652,,HIES - EU Statistics on Income and Living Conditions,False
+LU,Luxembourg,2021,2.99699494,LUX,7860.065,15.133576104672896,,HIES - EU Statistics on Income and Living Conditions,False
+LU,Luxembourg,2022,2.2326104784689,LUX,7417.331,19.17061910877221,,HIES - EU Statistics on Income and Living Conditions,False
+LU,Luxembourg,2023,1.703367672,LUX,8133.898,27.554450761161405,,HIES - EU Statistics on Income and Living Conditions,False
+MO,Macau,2019,17.10105364488095,MAC,,,,,False
+MO,Macau,2020,2.8920154000000005,MAC,,,,,False
+MO,Macau,2021,1.9261477111111112,MAC,,,,,False
+MO,Macau,2022,1.13035064,MAC,,,,,False
+MO,Macau,2023,1.4360819611111109,MAC,,,,,False
+MK,Macedonia,2019,3.616688462837839,MKD,,,,,False
+MK,Macedonia,2020,1.75488819,MKD,,,,,False
+MK,Macedonia,2021,0.960285408,MKD,,,,,False
+MK,Macedonia,2022,0.9172446305,MKD,,,,,False
+MK,Macedonia,2023,0.860935185,MKD,,,,,False
+MG,Madagascar,2019,7.238726563190122,MDG,,,,,False
+MG,Madagascar,2020,8.807383333333334,MDG,,,,,False
+MG,Madagascar,2021,5.140876650000001,MDG,,,,,False
+MG,Madagascar,2022,1.515911875,MDG,,,,,False
+MG,Madagascar,2023,1.1205195,MDG,,,,,False
+MW,Malawi,2019,3.5902088458994714,MWI,,,,,False
+MW,Malawi,2020,27.40616,MWI,,,,,False
+MW,Malawi,2021,25.46394,MWI,,,,,False
+MW,Malawi,2022,2.720092770833333,MWI,,,,,False
+MW,Malawi,2023,0.38079856,MWI,,,,,False
+MY,Malaysia,2019,1.6574289507452706,MYS,778.28,2.709582551622494,,ES - Salaries and Wages Survey,False
+MY,Malaysia,2020,1.1233876354166668,MYS,697.755,3.584055738032747,,ES - Salaries and Wages Survey,False
+MY,Malaysia,2021,0.885095531,MYS,,,,,True
+MY,Malaysia,2022,0.45053325,MYS,,,,,False
+MY,Malaysia,2023,0.2849917333333333,MYS,,,,,False
+MV,Maldives,2019,5.788658173076923,MDV,750.951,0.7485746785821423,,HIES - Household Income and Expenditure Survey,False
+MV,Maldives,2020,3.88098318,MDV,,,,,True
+MV,Maldives,2021,3.2370935000000003,MDV,,,,,False
+MV,Maldives,2022,2.6333333333333333,MDV,,,,,False
+MV,Maldives,2023,2.1558855180000003,MDV,,,,,False
+ML,Mali,2019,12.369568452380951,MLI,165.385,0.0771512570556874,,HIES - Enquête Harmonisée sur les Conditions de Vie des Ménages,False
+ML,Mali,2020,4.123785,MLI,140.746,0.1969434238176535,,LFS - Enquête Emploi Permanente Auprès des Ménages,True
+ML,Mali,2021,3.2813469000000004,MLI,,,,,True
+ML,Mali,2022,3.00594789375,MLI,147.294,0.2827515832933253,,LFS - Enquête Emploi Permanente Auprès des Ménages,False
+ML,Mali,2023,4.557988557692307,MLI,163.312,0.2067503741303053,,LFS - Enquête Emploi Permanente Auprès des Ménages,False
+MT,Malta,2019,13.098492063492063,MLT,2331.905,1.0272851013715651,,HIES - EU Statistics on Income and Living Conditions,False
+MT,Malta,2020,3.6166333333333327,MLT,2572.768,4.104852743091168,,HIES - EU Statistics on Income and Living Conditions,False
+MT,Malta,2021,2.008950343396226,MLT,3946.989,11.337000119297954,U,HIES - EU Statistics on Income and Living Conditions,True
+MT,Malta,2022,3.3573219,MLT,,,,,True
+MT,Malta,2023,2.35638243,MLT,,,,,False
+MH,Marshall Islands,2019,,MHL,798.347,,,HIES - Household Income and Expenditure Survey,False
+MH,Marshall Islands,2020,,MHL,,,,,True
+MH,Marshall Islands,2021,,MHL,,,,,False
+MH,Marshall Islands,2022,,MHL,,,,,False
+MH,Marshall Islands,2023,6.083333333333333,MHL,,,,,False
+MQ,Martinique,2019,7.122760703846153,,,,,,False
+MQ,Martinique,2020,2.602167683333333,,,,,,False
+MQ,Martinique,2021,3.4608015,,,,,,False
+MQ,Martinique,2022,1.334245876666667,,,,,,False
+MQ,Martinique,2023,0.3347316787499999,,,,,,False
+MR,Mauritania,2019,9.492928820477523,MRT,,,,,False
+MR,Mauritania,2020,4.62933065,MRT,,,,,False
+MR,Mauritania,2021,5.563282200000001,MRT,,,,,False
+MR,Mauritania,2022,3.0015526300000004,MRT,,,,,False
+MR,Mauritania,2023,1.31578945,MRT,,,,,False
+MU,Mauritius,2019,0.5146112518992063,MUS,578.616,6.4880262480565305,,LFS - Continuous Multi-Purpose Household Survey,False
+MU,Mauritius,2020,0.69,MUS,501.833,4.196735158098965,B,LFS - Continuous Multi-Purpose Household Survey,True
+MU,Mauritius,2021,0.7531517933333334,MUS,543.607,4.164894100785741,,LFS - Continuous Multi-Purpose Household Survey,False
+MU,Mauritius,2022,0.8706141990000001,MUS,525.787,3.4848616042726164,,LFS - Continuous Multi-Purpose Household Survey,False
+MU,Mauritius,2023,0.6690580635416667,MUS,407.886,3.517842789854408,,LFS - Continuous Multi-Purpose Household Survey,False
+YT,Mayotte,2019,2.2233499700234454,,,,,,False
+YT,Mayotte,2020,1.08499,,,,,,False
+YT,Mayotte,2021,0.8246406060606061,,,,,,False
+YT,Mayotte,2022,1.2342942408333333,,,,,,False
+YT,Mayotte,2023,0.7143799999999999,,,,,,False
+MX,Mexico,2019,15.046305743076344,MEX,343.714,0.1318161967015524,,LFS - Encuesta Nacional de Ocupación y Empleo,False
+MX,Mexico,2020,4.7671903749375,MEX,328.063,0.3970966229981038,B,LFS - Encuesta Nacional de Ocupación y Empleo,True
+MX,Mexico,2021,3.618525,MEX,369.917,0.5898942326706788,,LFS - Encuesta Nacional de Ocupación y Empleo,False
+MX,Mexico,2022,3.102453,MEX,400.467,0.7448399473013169,,LFS - Encuesta Nacional de Ocupación y Empleo,False
+MX,Mexico,2023,2.0343403571428573,MEX,502.361,1.4249306851077574,,LFS - Encuesta Nacional de Ocupación y Empleo,False
+FM,Micronesia (Federated States of),2019,12.866666666666664,FSM,,,,,False
+FM,Micronesia (Federated States of),2020,7.197100333333333,FSM,,,,,False
+FM,Micronesia (Federated States of),2021,7.848427333333333,FSM,,,,,False
+FM,Micronesia (Federated States of),2022,10.429825,FSM,,,,,False
+FM,Micronesia (Federated States of),2023,7.108080999999999,FSM,,,,,False
+MD,Moldova,2019,2.816993833333333,MDA,235.293,0.481975040007678,,LFS - Labour Force Survey,False
+MD,Moldova,2020,1.1209157142857145,MDA,256.066,1.3181972371878403,,LFS - Labour Force Survey,False
+MD,Moldova,2021,0.32116625,MDA,279.233,5.016932740906055,,LFS - Labour Force Survey,False
+MD,Moldova,2022,0.2566433333333334,MDA,288.935,6.496382728088625,,LFS - Labour Force Survey,False
+MD,Moldova,2023,0.278925,MDA,345.967,7.157290936614126,,LFS - Labour Force Survey,False
+MC,Monaco,2019,1.205815804,MCO,,,,,False
+MC,Monaco,2020,0.9763825009999998,MCO,,,,,False
+MC,Monaco,2021,1.0844830683333333,MCO,,,,,False
+MC,Monaco,2022,0.4004072543333333,MCO,,,,,False
+MC,Monaco,2023,0.4170167736428571,MCO,,,,,False
+MN,Mongolia,2019,0.8201752136752136,MNG,296.769,2.0879174796787554,B,LFS - Labour Force Survey,True
+MN,Mongolia,2020,0.74,MNG,303.86,2.36942655292338,,LFS - Labour Force Survey,False
+MN,Mongolia,2021,0.6043333333333334,MNG,317.681,3.0333053356711748,,LFS - Labour Force Survey,False
+MN,Mongolia,2022,0.6680555555555556,MNG,341.346,2.948381485484774,,LFS - Labour Force Survey,False
+MN,Mongolia,2023,0.383772,MNG,366.152,5.505408670981969,,LFS - Labour Force Survey,False
+ME,Montenegro,2019,2.8323937512175323,MNE,865.374,1.7629973214376344,,ES - Survey on employees and wages,False
+ME,Montenegro,2020,3.942130333333333,MNE,,,,,True
+ME,Montenegro,2021,2.1238081,MNE,,,,,False
+ME,Montenegro,2022,0.599709815,MNE,929.799,8.946421495786305,,ES - Survey on employees and wages,False
+ME,Montenegro,2023,0.3214709999999999,MNE,,,,,True
+MS,Montserrat,2019,4.918130957739468,MSR,,,,,False
+MS,Montserrat,2020,8.32547025,MSR,,,,,False
+MS,Montserrat,2021,4.008559749999999,MSR,,,,,False
+MS,Montserrat,2022,2.7551412,MSR,,,,,False
+MS,Montserrat,2023,2.261238833333333,MSR,,,,,False
+MA,Morocco,2019,1.6574289507452706,MAR,,,,,False
+MA,Morocco,2020,0.98512834,MAR,,,,,False
+MA,Morocco,2021,0.8841251599999999,MAR,,,,,False
+MA,Morocco,2022,0.6905892792857143,MAR,,,,,False
+MA,Morocco,2023,0.6316612146181818,MAR,,,,,False
+MZ,Mozambique,2019,12.816115151515152,MOZ,,,,,False
+MZ,Mozambique,2020,3.326925825,MOZ,,,,,False
+MZ,Mozambique,2021,2.791652,MOZ,,,,,False
+MZ,Mozambique,2022,1.3344315340909092,MOZ,212.548,0.919098725301438,,HIES - Household Budget Survey,False
+MZ,Mozambique,2023,0.7825535,MOZ,,,,,True
+MM,Myanmar,2019,0.8706434578830234,MMR,137.563,0.9117226301399566,,LFS - Labour Force Survey,False
+MM,Myanmar,2020,0.7792205519337017,MMR,135.98,1.006968941534707,,LFS - Labour Force Survey,False
+MM,Myanmar,2021,0.7795565632000001,MMR,,,,,True
+MM,Myanmar,2022,1.1145473485681294,MMR,,,,,False
+MM,Myanmar,2023,0.989654563125,MMR,,,,,False
+,Namibia,2019,11.016568131112017,NAM,,,,,False
+,Namibia,2020,4.78184531435,NAM,,,,,False
+,Namibia,2021,22.36505767222222,NAM,,,,,False
+,Namibia,2022,2.001368815,NAM,,,,,False
+,Namibia,2023,1.196670128,NAM,,,,,False
+NR,Nauru,2019,28.12769443111111,NRU,,,,,False
+NR,Nauru,2020,30.47382766666667,NRU,,,,,False
+NR,Nauru,2021,7.624750000000001,NRU,,,,,False
+NR,Nauru,2022,6.764819875,NRU,,,,,False
+NR,Nauru,2023,3.0880166666666677,NRU,,,,,False
+NP,Nepal,2019,2.245411413203286,NPL,,,,,False
+NP,Nepal,2020,0.8588719110733334,NPL,,,,,False
+NP,Nepal,2021,0.614076828,NPL,,,,,False
+NP,Nepal,2022,0.2722127247,NPL,,,,,False
+NP,Nepal,2023,0.43070483025,NPL,,,,,False
+NC,New Caledonia,2019,7.210986908080935,NCL,,,,,False
+NC,New Caledonia,2020,4.808529781,NCL,,,,,False
+NC,New Caledonia,2021,6.493274380000001,NCL,,,,,False
+NC,New Caledonia,2022,6.5141502,NCL,,,,,False
+NC,New Caledonia,2023,3.76179258,NCL,,,,,False
+NZ,New Zealand,2019,9.79344957513915,NZL,3373.137,1.9874660838805676,,ADM - Linked employer-employee data,False
+NZ,New Zealand,2020,6.06255,NZL,3417.51,3.252789039525497,,ADM - Linked employer-employee data,False
+NZ,New Zealand,2021,6.99475,NZL,3968.029,3.273437684808821,,ADM - Linked employer-employee data,False
+NZ,New Zealand,2022,10.5212978,NZL,3797.91,2.082940157704521,,ADM - Linked employer-employee data,False
+NZ,New Zealand,2023,5.8895,NZL,,,,,True
+NI,Nicaragua,2019,65.825491875,NIC,,,,,False
+NI,Nicaragua,2020,1.7142857142857142,NIC,,,,,False
+NI,Nicaragua,2021,0.94,NIC,,,,,False
+NI,Nicaragua,2022,0.70383935,NIC,,,,,False
+NI,Nicaragua,2023,0.5458762,NIC,,,,,False
+NE,Niger,2019,25.51867632125,NER,143.757,0.0325066559738573,,HIES - Enquête Nationale sur les Conditions de Vie de Ménages,False
+NE,Niger,2020,3.299028,NER,,,,,True
+NE,Niger,2021,1.2817121615999998,NER,,,,,False
+NE,Niger,2022,1.8501045,NER,120.365,0.3754096205239585,,HIES - Enquête Nationale sur les Conditions de Vie de Ménages,False
+NE,Niger,2023,1.634589,NER,,,,,True
+NG,Nigeria,2019,7.914322404664202,NGA,147.289,0.1073885585014727,,HIES - Living Standards Survey,False
+NG,Nigeria,2020,1.38696255,NGA,,,,,True
+NG,Nigeria,2021,0.8754650666666667,NGA,,,,,False
+NG,Nigeria,2022,0.709584,NGA,,,,,False
+NG,Nigeria,2023,0.3936213,NGA,,,,,False
+NU,Niue,2019,9.203304962337665,NIU,,,,,False
+NU,Niue,2020,4.503608571428572,NIU,,,,,False
+NU,Niue,2021,7.367803333333333,NIU,,,,,False
+NU,Niue,2022,41.06194038461539,NIU,,,,,False
+NU,Niue,2023,3.1410666666666662,NIU,,,,,False
+NF,Norfolk Island,2019,,NFK,,,,,False
+NF,Norfolk Island,2020,,NFK,,,,,False
+NF,Norfolk Island,2021,,NFK,,,,,False
+NF,Norfolk Island,2022,,NFK,,,,,False
+NF,Norfolk Island,2023,6.389,NFK,,,,,False
+KP,North Korea,2019,,,,,,,False
+KP,North Korea,2020,,,,,,,False
+KP,North Korea,2021,,,,,,,False
+KP,North Korea,2022,,,,,,,False
+KP,North Korea,2023,,,,,,,False
+MP,Northern Mariana Islands,2019,12.96952380952381,MNP,,,,,False
+MP,Northern Mariana Islands,2020,2.65,MNP,,,,,False
+MP,Northern Mariana Islands,2021,2.1547619047619047,MNP,,,,,False
+MP,Northern Mariana Islands,2022,2.7134866,MNP,,,,,False
+MP,Northern Mariana Islands,2023,2.6666666666666665,MNP,,,,,False
+NO,Norway,2019,5.326521312857692,NOR,6106.015,6.614783509508243,,HIES - EU Statistics on Income and Living Conditions,False
+NO,Norway,2020,5.280744599999999,NOR,6427.764,7.023703932360252,,HIES - EU Statistics on Income and Living Conditions,False
+NO,Norway,2021,5.814577125,NOR,5977.016,5.931543507665579,,HIES - EU Statistics on Income and Living Conditions,False
+NO,Norway,2022,5.357971795806666,NOR,5828.395,6.276969104970589,,HIES - EU Statistics on Income and Living Conditions,False
+NO,Norway,2023,4.06778110425,NOR,6338.057,8.990834497914156,,HIES - EU Statistics on Income and Living Conditions,False
+OM,Oman,2019,11.2831078125,OMN,,,,,False
+OM,Oman,2020,4.580646583333333,OMN,,,,,False
+OM,Oman,2021,2.12372615,OMN,,,,,False
+OM,Oman,2022,3.1927363925,OMN,,,,,False
+OM,Oman,2023,1.948137,OMN,,,,,False
+PK,Pakistan,2019,1.8497322523370627,PAK,143.597,0.4479586581053401,,LFS - Labour Force Survey,False
+PK,Pakistan,2020,0.6928482416666667,PAK,138.958,1.1573024510162429,B,HIES - Household Income and Expenditure Survey,True
+PK,Pakistan,2021,0.586096324576875,PAK,147.743,1.4545858306356203,,LFS - Labour Force Survey,True
+PK,Pakistan,2022,0.358850775,PAK,,,,,True
+PK,Pakistan,2023,0.123717950625,PAK,,,,,False
+PW,Palau,2019,8.339285714285714,PLW,,,,,False
+PW,Palau,2020,2.5,PLW,,,,,False
+PW,Palau,2021,1.6666666666666663,PLW,,,,,False
+PW,Palau,2022,1.6666666666666667,PLW,,,,,False
+PW,Palau,2023,2.25,PLW,1042.366,2.673247419375521,,HIES - Household Income and Expenditure Survey,False
+PS,"Palestine, State of",2019,6.561716385379629,PSE,,,,,False
+PS,"Palestine, State of",2020,3.2559689345,PSE,,,,,False
+PS,"Palestine, State of",2021,1.7080605,PSE,,,,,False
+PS,"Palestine, State of",2022,2.3274173,PSE,,,,,False
+PS,"Palestine, State of",2023,1.0828375,PSE,,,,,False
+PA,Panama,2019,4.691375845539216,PAN,890.356,1.0951280415237663,,LFS - Encuesta de Mercado Laboral,False
+PA,Panama,2020,6.68768,PAN,924.526,0.7977100840585557,B,LFS - Encuesta de Mercado Laboral,True
+PA,Panama,2021,4.4895834,PAN,929.478,1.1946330033351316,B,LFS - Encuesta de Mercado Laboral,True
+PA,Panama,2022,3.36077515,PAN,827.381,1.4205859775930156,,HS - Encuesta de Hogares de Propósitos Múltiples,True
+PA,Panama,2023,1.6318296866666666,PAN,903.684,3.195532218774493,,LFS - Encuesta de Mercado Laboral,True
+PG,Papua New Guinea,2019,12.139600061877818,PNG,,,,,False
+PG,Papua New Guinea,2020,5.404966875,PNG,,,,,False
+PG,Papua New Guinea,2021,2.262264,PNG,,,,,False
+PG,Papua New Guinea,2022,2.8889761678743966,PNG,,,,,False
+PG,Papua New Guinea,2023,1.36434,PNG,,,,,False
+PY,Paraguay,2019,11.55507433535,PRY,398.862,0.1991825812458271,,HS - Encuesta Permanente de Hogares Continua,False
+PY,Paraguay,2020,2.3032125,PRY,369.977,0.926919790814644,,HS - Encuesta Permanente de Hogares Continua,False
+PY,Paraguay,2021,2.5338983333333336,PRY,381.454,0.8686692031371884,,HS - Encuesta Permanente de Hogares Continua,False
+PY,Paraguay,2022,1.0761375,PRY,389.548,2.0887893802142545,,HS - Encuesta Permanente de Hogares Continua,False
+PY,Paraguay,2023,1.038275245,PRY,398.552,2.2150010203343493,,HS - Encuesta Permanente de Hogares Continua,False
+PE,Peru,2019,2.4752976679785066,PER,474.964,1.1072219785886004,,HS - Encuesta Nacional de Hogares,False
+PE,Peru,2020,2.1282383566666665,PER,427.905,1.16018843592387,B,HS - Encuesta Nacional de Hogares,True
+PE,Peru,2021,1.153810518,PER,422.175,2.111346223241216,,HS - Encuesta Nacional de Hogares,False
+PE,Peru,2022,1.007701716,PER,423.646,2.425898072319417,B,"LFS - Permanent Employment Survey, National",True
+PE,Peru,2023,0.4456414049999999,PER,472.883,6.12307535261065,,"LFS - Permanent Employment Survey, National",False
+PH,Philippines,2019,3.156391674001217,PHL,282.326,0.5161327573285535,,LFS - Labour Force Survey,False
+PH,Philippines,2020,1.4229902716666667,PHL,306.902,1.244512390614081,,LFS - Labour Force Survey,False
+PH,Philippines,2021,1.771899618666667,PHL,315.261,1.0266740177999678,B,LFS - Labour Force Survey,True
+PH,Philippines,2022,0.5165460483333334,PHL,302.651,3.3809169834790285,,LFS - Labour Force Survey,False
+PH,Philippines,2023,0.5869537096666668,PHL,316.463,3.1111469606228237,,LFS - Labour Force Survey,False
+PN,Pitcairn Islands,2019,,,,,,,False
+PN,Pitcairn Islands,2020,,,,,,,False
+PN,Pitcairn Islands,2021,,,,,,,False
+PN,Pitcairn Islands,2022,,,,,,,False
+PN,Pitcairn Islands,2023,,,,,,,False
+PL,Poland,2019,1.3179038277972706,POL,1194.474,5.229912451424297,,HIES - EU Statistics on Income and Living Conditions,False
+PL,Poland,2020,0.69576974,POL,1324.626,10.985736443548626,,HIES - EU Statistics on Income and Living Conditions,False
+PL,Poland,2021,0.6395537499999999,POL,1377.696,12.430190514436742,,HIES - EU Statistics on Income and Living Conditions,False
+PL,Poland,2022,0.4077722066666667,POL,1347.239,19.06463356387857,,HIES - EU Statistics on Income and Living Conditions,False
+PL,Poland,2023,0.3696993083333333,POL,1515.79,23.658752271590533,,HIES - EU Statistics on Income and Living Conditions,False
+PT,Portugal,2019,13.982126257200004,PRT,1002.577,0.4137575724183846,,LFS - Encuesta de Empleo,False
+PT,Portugal,2020,4.971966675,PRT,1077.67,1.2507169092891752,,LFS - Encuesta de Empleo,False
+PT,Portugal,2021,3.845335,PRT,1189.697,1.7852688315703638,,LFS - Encuesta de Empleo,False
+PT,Portugal,2022,4.5625,PRT,1092.945,1.3822826834454462,,LFS - Encuesta de Empleo,False
+PT,Portugal,2023,1.7859499999999997,PRT,1144.909,3.69915995093264,,LFS - Encuesta de Empleo,False
+PR,Puerto Rico,2019,14.612052787882352,PRI,,,,,False
+PR,Puerto Rico,2020,9.166666666666666,PRI,,,,,False
+PR,Puerto Rico,2021,4.0,PRI,,,,,False
+PR,Puerto Rico,2022,1.9333333333333331,PRI,,,,,False
+PR,Puerto Rico,2023,2.583333333333333,PRI,,,,,False
+QA,Qatar,2019,12.569170833333336,QAT,3106.593,1.426195847566641,,LFS - Labor Force Sample Survey,False
+QA,Qatar,2020,4.119747,QAT,3174.176,4.445922569636907,,LFS - Labor Force Sample Survey,False
+QA,Qatar,2021,3.2042476666666664,QAT,,,,,True
+QA,Qatar,2022,12.661817998046876,QAT,3286.539,1.49776666632014,,LFS - Labor Force Sample Survey,False
+QA,Qatar,2023,2.403186625,QAT,,,,,True
+RO,Romania,2019,1.890459976535088,ROU,893.942,2.728621471312876,,HIES - EU Statistics on Income and Living Conditions,False
+RO,Romania,2020,1.0307404999999998,ROU,952.193,5.330612102841858,,HIES - EU Statistics on Income and Living Conditions,False
+RO,Romania,2021,1.18318,ROU,1129.08,5.5064960491081045,,HIES - EU Statistics on Income and Living Conditions,False
+RO,Romania,2022,0.4507551999999999,ROU,1069.516,13.69140375266835,,HIES - EU Statistics on Income and Living Conditions,False
+RO,Romania,2023,0.535785,ROU,1331.675,14.341980680439008,,HIES - EU Statistics on Income and Living Conditions,False
+RU,Russian Federation,2019,0.9127893210553596,RUS,690.927,4.367803089049453,,ES - Establishments sample Survey on employees' wages by Occupation,False
+RU,Russian Federation,2020,0.5159666666666667,RUS,,,,,True
+RU,Russian Federation,2021,0.28983774,RUS,777.144,15.47205501513386,,ES - Establishments sample Survey on employees' wages by Occupation,False
+RU,Russian Federation,2022,0.47648244,RUS,,,,,True
+RU,Russian Federation,2023,0.253878,RUS,,,,,False
+RW,Rwanda,2019,3.791816282574266,RWA,,,,,False
+RW,Rwanda,2020,1.4813333333333332,RWA,,,,,False
+RW,Rwanda,2021,1.2466666666666668,RWA,41.177,0.1905924936202251,,LFS - Enquête sur la Population Active,False
+RW,Rwanda,2022,1.1013035,RWA,40.555,0.2124901600269682,,LFS - Enquête sur la Population Active,False
+RW,Rwanda,2023,0.5533333333333333,RWA,47.039,0.4905380321053399,,LFS - Enquête sur la Population Active,False
+RE,Réunion,2019,1.6483082466535308,,,,,,False
+RE,Réunion,2020,0.723145835,,,,,,False
+RE,Réunion,2021,0.7604466885714286,,,,,,False
+RE,Réunion,2022,0.7006292630000001,,,,,,False
+RE,Réunion,2023,0.4820457644999999,,,,,,False
+BL,Saint Barthélemy (St. Barts),2019,5.037716311808563,BLM,,,,,False
+BL,Saint Barthélemy (St. Barts),2020,4.06328755,BLM,,,,,False
+BL,Saint Barthélemy (St. Barts),2021,2.3604441,BLM,,,,,False
+BL,Saint Barthélemy (St. Barts),2022,1.5493337875,BLM,,,,,False
+BL,Saint Barthélemy (St. Barts),2023,0.8036774999999999,BLM,,,,,False
+SH,Saint Helena,2019,62.65,SHN,,,,,False
+SH,Saint Helena,2020,52.49533333333334,SHN,,,,,False
+SH,Saint Helena,2021,39.86596153846154,SHN,,,,,False
+SH,Saint Helena,2022,43.79,SHN,,,,,False
+SH,Saint Helena,2023,40.13376677884615,SHN,,,,,False
+KN,Saint Kitts and Nevis,2019,14.897661965944096,KNA,,,,,False
+KN,Saint Kitts and Nevis,2020,11.0679418205,KNA,,,,,False
+KN,Saint Kitts and Nevis,2021,3.700209,KNA,,,,,False
+KN,Saint Kitts and Nevis,2022,1.8495160833333335,KNA,,,,,False
+KN,Saint Kitts and Nevis,2023,1.54175375,KNA,,,,,False
+LC,Saint Lucia,2019,4.838086455626401,LCA,,,,,False
+LC,Saint Lucia,2020,3.26851795,LCA,,,,,False
+LC,Saint Lucia,2021,2.620981375,LCA,,,,,False
+LC,Saint Lucia,2022,2.9802549,LCA,,,,,False
+LC,Saint Lucia,2023,1.5756723325000002,LCA,,,,,False
+VC,Saint Vincent and the Grenadines,2019,3.581779043329776,VCT,,,,,False
+VC,Saint Vincent and the Grenadines,2020,3.3301881,VCT,,,,,False
+VC,Saint Vincent and the Grenadines,2021,2.40513585,VCT,,,,,False
+VC,Saint Vincent and the Grenadines,2022,2.49295065,VCT,,,,,False
+VC,Saint Vincent and the Grenadines,2023,1.05363451275,VCT,,,,,False
+MF,Saint-Martin (France),2019,8.457274639377777,MAF,,,,,False
+MF,Saint-Martin (France),2020,3.322781875,MAF,,,,,False
+MF,Saint-Martin (France),2021,3.4608015,MAF,,,,,False
+MF,Saint-Martin (France),2022,2.7382256000000003,MAF,,,,,False
+MF,Saint-Martin (France),2023,1.5778868249999998,MAF,,,,,False
+WS,Samoa,2019,30.08882081803344,WSM,,,,,False
+WS,Samoa,2020,10.864789439814814,WSM,,,,,False
+WS,Samoa,2021,0.5610225,WSM,,,,,False
+WS,Samoa,2022,0.9350375,WSM,613.031,3.783161184933236,B,LFS - Labour Force Survey,True
+WS,Samoa,2023,0.36245,WSM,,,,,True
+SM,San Marino,2019,6.860577565972223,SMR,2419.24,2.034790554618432,,"OE - Estimates of the Office of economic planning, data processing and statistics",False
+SM,San Marino,2020,1.1573226666666665,SMR,2340.368,11.668932552219523,,"OE - Estimates of the Office of economic planning, data processing and statistics",False
+SM,San Marino,2021,0.4338326666666666,SMR,2975.673,39.57896119271119,,"OE - Estimates of the Office of economic planning, data processing and statistics",False
+SM,San Marino,2022,0.1396653075,SMR,2316.6,95.71146139259037,,"OE - Estimates of the Office of economic planning, data processing and statistics",False
+SM,San Marino,2023,0.0959948125,SMR,,,,,True
+SA,Saudi Arabia,2019,5.622777218724489,SAU,1683.467,1.727647628317292,,LFS - Labour Force Survey,False
+SA,Saudi Arabia,2020,2.117497708,SAU,1750.347,4.769827167995995,,LFS - Labour Force Survey,False
+SA,Saudi Arabia,2021,1.4688523639166668,SAU,,,,,True
+SA,Saudi Arabia,2022,1.5242079386249998,SAU,1799.467,6.812415127599306,,LFS - Labour Force Survey,False
+SA,Saudi Arabia,2023,1.49467670625,SAU,,,,,True
+SN,Senegal,2019,3.2825493642630383,SEN,146.722,0.257920231371045,,LFS - Enquête Nationale sur l'Emploi,False
+SN,Senegal,2020,3.299028,SEN,,,,,True
+SN,Senegal,2021,0.93924792,SEN,,,,,False
+SN,Senegal,2022,1.530634,SEN,156.427,0.5897144879740613,,LFS - Enquête Nationale sur l'Emploi,False
+SN,Senegal,2023,1.634589,SEN,154.303,0.5447123665151947,,LFS - Enquête Nationale sur l'Emploi,False
+RS,Serbia,2019,4.830529665965958,SRB,968.71,1.157178794861114,,HIES - Survey on Income and living Conditions,False
+RS,Serbia,2020,1.6036459622233332,SRB,788.587,2.8375436796558264,,HIES - Survey on Income and living Conditions,False
+RS,Serbia,2021,1.3015464886666668,SRB,891.653,3.953098424176784,,HIES - Survey on Income and living Conditions,False
+RS,Serbia,2022,0.7583175224166666,SRB,824.427,6.273393829912841,,HIES - Survey on Income and living Conditions,False
+RS,Serbia,2023,0.5783102422216667,SRB,962.885,9.607601350681088,,HIES - Survey on Income and living Conditions,False
+SC,Seychelles,2019,19.546083813880163,SYC,1049.836,0.3099296613296621,,ADM-IR - Records of the Treasury Department and Seychelles Revenue Commission,False
+SC,Seychelles,2020,11.425090993333336,SYC,,,,,True
+SC,Seychelles,2021,8.637317687988281,SYC,,,,,False
+SC,Seychelles,2022,2.16,SYC,1048.989,2.802325767775854,,ADM-IR - Records of the Treasury Department and Seychelles Revenue Commission,False
+SC,Seychelles,2023,5.434161037999999,SYC,,,,,True
+SL,Sierra Leone,2019,9.215213114666666,SLE,,,,,False
+SL,Sierra Leone,2020,3.689613121212122,SLE,,,,,False
+SL,Sierra Leone,2021,3.25934,SLE,,,,,False
+SL,Sierra Leone,2022,1.258,SLE,,,,,False
+SL,Sierra Leone,2023,0.6694649699999999,SLE,,,,,False
+SG,Singapore,2019,2.866208082031707,SGP,3344.92,6.734098371748992,,LFS - Labour Force Survey,False
+SG,Singapore,2020,2.46632575,SGP,3286.122,7.688377214777621,,LFS - Labour Force Survey,False
+SG,Singapore,2021,1.0899753333333333,SGP,3483.482,18.441588976400457,,LFS - Labour Force Survey,False
+SG,Singapore,2022,0.6111555,SGP,,,,,True
+SG,Singapore,2023,0.6254309365295454,SGP,,,,,False
+SX,Sint Maarten,2019,21.63599342833334,SXM,,,,,False
+SX,Sint Maarten,2020,4.660520833333334,SXM,,,,,False
+SX,Sint Maarten,2021,4.16910675,SXM,,,,,False
+SX,Sint Maarten,2022,4.290977036328672,SXM,,,,,False
+SX,Sint Maarten,2023,2.772015,SXM,,,,,False
+SK,Slovakia,2019,7.375777795063765,SVK,1441.846,1.1280088050054349,,HIES - EU Statistics on Income and Living Conditions,False
+SK,Slovakia,2020,3.8426729166666656,SVK,1543.127,2.31723291074298,,HIES - EU Statistics on Income and Living Conditions,False
+SK,Slovakia,2021,3.5495399999999995,SVK,1576.05,2.5621193355643026,,HIES - EU Statistics on Income and Living Conditions,False
+SK,Slovakia,2022,2.815490559375,SVK,1349.75,2.766309052811483,,HIES - EU Statistics on Income and Living Conditions,False
+SK,Slovakia,2023,2.678925,SVK,1398.619,3.0125919127857657,,HIES - EU Statistics on Income and Living Conditions,False
+SI,Slovenia,2019,2.213228896301588,SVN,2449.431,6.386167649724184,,HIES - EU Statistics on Income and Living Conditions,False
+SI,Slovenia,2020,1.4817346766666666,SVN,2621.792,10.21008191786868,,HIES - EU Statistics on Income and Living Conditions,False
+SI,Slovenia,2021,1.7242876533333331,SVN,2889.432,9.669503992064673,,HIES - EU Statistics on Income and Living Conditions,False
+SI,Slovenia,2022,1.6158649145238095,SVN,2773.097,9.902878419653868,,HIES - EU Statistics on Income and Living Conditions,False
+SI,Slovenia,2023,0.8422540199999999,SVN,2987.432,20.46710291923923,,HIES - EU Statistics on Income and Living Conditions,False
+SB,Solomon Islands,2019,8.367097866121837,SLB,,,,,False
+SB,Solomon Islands,2020,8.53015873015873,SLB,,,,,False
+SB,Solomon Islands,2021,7.825294117647059,SLB,,,,,False
+SB,Solomon Islands,2022,12.12703125,SLB,,,,,False
+SB,Solomon Islands,2023,6.964705882352941,SLB,,,,,False
+SO,Somalia,2019,6.19133597883598,SOM,,,,,False
+SO,Somalia,2020,0.5,SOM,,,,,False
+SO,Somalia,2021,0.6,SOM,,,,,False
+SO,Somalia,2022,0.6297210888888889,SOM,,,,,False
+SO,Somalia,2023,0.5,SOM,,,,,False
+ZA,South Africa,2019,7.7662839277014655,ZAF,263.004,0.1954116838712752,,LFS - Quarterly Labour Force Survey,False
+ZA,South Africa,2020,4.2964668,ZAF,484.853,0.6511785167863549,,HIES - National Income Dynamic Survey,True
+ZA,South Africa,2021,2.672957117866667,ZAF,,,,,True
+ZA,South Africa,2022,2.2993069411764706,ZAF,,,,,False
+ZA,South Africa,2023,1.80691835625,ZAF,,,,,False
+KR,South Korea,2019,9.211071428571426,KOR,3192.154,1.9997473140822648,,ES - Survey on labor conditions by employment type,False
+KR,South Korea,2020,10.94169641861111,KOR,3183.181,1.6787194034193944,,ES - Survey on labor conditions by employment type,False
+KR,South Korea,2021,4.71690597504,KOR,3372.52,4.125710513990239,,ES - Survey on labor conditions by employment type,False
+KR,South Korea,2022,2.0544196,KOR,3167.765,8.897443597144633,,ES - Survey on labor conditions by employment type,False
+KR,South Korea,2023,5.0127707035,KOR,,,,,True
+SS,South Sudan,2019,,SSD,,,,,False
+SS,South Sudan,2020,,SSD,,,,,False
+SS,South Sudan,2021,,SSD,,,,,False
+SS,South Sudan,2022,2.7457498625,SSD,,,,,False
+SS,South Sudan,2023,23.701458,SSD,,,,,False
+ES,Spain,2019,0.5606380746203085,ESP,2726.728,28.06471694852253,,HIES - EU Statistics on Income and Living Conditions,False
+ES,Spain,2020,1.8083166666666664,ESP,3000.221,9.57370847408684,,HIES - EU Statistics on Income and Living Conditions,False
+ES,Spain,2021,1.242339,ESP,3067.352,14.24704957362998,,HIES - EU Statistics on Income and Living Conditions,False
+ES,Spain,2022,0.600711,ESP,2852.288,27.398653964546146,,HIES - EU Statistics on Income and Living Conditions,False
+ES,Spain,2023,0.48363526,ESP,3183.624,37.98439829442204,,HIES - EU Statistics on Income and Living Conditions,False
+LK,Sri Lanka,2019,0.7808941347457664,LKA,204.028,1.507644850903578,,LFS - Labour Force Survey,False
+LK,Sri Lanka,2020,0.5126660347875,LKA,199.535,2.2458770497352525,,LFS - Labour Force Survey,False
+LK,Sri Lanka,2021,0.3755215129716346,LKA,200.224,3.076682976523376,,LFS - Labour Force Survey,False
+LK,Sri Lanka,2022,0.2667075,LKA,137.291,2.9703544547222447,,LFS - Labour Force Survey,True
+LK,Sri Lanka,2023,0.2490982527066666,LKA,143.764,3.3302811860472024,,LFS - Labour Force Survey,False
+PM,St. Pierre and Miquelon,2019,,SPM,,,,,False
+PM,St. Pierre and Miquelon,2020,,SPM,,,,,False
+PM,St. Pierre and Miquelon,2021,,SPM,,,,,False
+PM,St. Pierre and Miquelon,2022,3.003555,SPM,,,,,False
+PM,St. Pierre and Miquelon,2023,1.0683552899999995,SPM,,,,,False
+SD,Sudan,2019,0.6758852756285715,SDN,,,,,False
+SD,Sudan,2020,0.6256780972,SDN,,,,,False
+SD,Sudan,2021,0.2729658776,SDN,,,,,False
+SD,Sudan,2022,0.7454641388925899,SDN,284.182,2.199739469993166,B,LFS - Labor Market Panel Survey,True
+SD,Sudan,2023,1.160024534889125,SDN,,,,,True
+SR,Suriname,2019,6.081389479863416,SUR,,,,,False
+SR,Suriname,2020,4.916420666666667,SUR,,,,,False
+SR,Suriname,2021,1.9414417332291665,SUR,,,,,False
+SR,Suriname,2022,1.7819263217500003,SUR,264.081,0.855162897477586,,HIES - Survey on Living Conditions,False
+SR,Suriname,2023,0.9495937148391532,SUR,,,,,True
+SJ,Svalbard and Jan Mayen,2019,11.763869015873016,,,,,,False
+SJ,Svalbard and Jan Mayen,2020,5.899039666666666,,,,,,False
+SJ,Svalbard and Jan Mayen,2021,4.651661699999999,,,,,,False
+SJ,Svalbard and Jan Mayen,2022,,,,,,,False
+SJ,Svalbard and Jan Mayen,2023,9.003899435625,,,,,,False
+SE,Sweden,2019,3.655543968052135,SWE,4178.893,6.596456102081179,,HIES - EU Statistics on Income and Living Conditions,False
+SE,Sweden,2020,2.0681799939,SWE,4231.875,11.80717324615546,,HIES - EU Statistics on Income and Living Conditions,False
+SE,Sweden,2021,1.4482062674999998,SWE,4668.272,18.600609152250104,,HIES - EU Statistics on Income and Living Conditions,False
+SE,Sweden,2022,1.875143218,SWE,4434.037,13.644772736649944,,HIES - EU Statistics on Income and Living Conditions,False
+SE,Sweden,2023,2.333998184666666,SWE,4494.225,11.111066186623422,,HIES - EU Statistics on Income and Living Conditions,False
+CH,Switzerland,2019,20.22072950333333,CHE,5971.77,1.704149495889003,,LFS - Enquête sur la Population Active,False
+CH,Switzerland,2020,8.37569898,CHE,6399.845,4.409098818613964,,LFS - Enquête sur la Population Active,False
+CH,Switzerland,2021,5.240780300000001,CHE,6668.253,7.342053628409306,,LFS - Enquête sur la Population Active,False
+CH,Switzerland,2022,15.5505963,CHE,6427.933,2.3852051127033773,,LFS - Enquête sur la Population Active,False
+CH,Switzerland,2023,7.2903415,CHE,6998.233,5.539135163837055,,LFS - Enquête sur la Population Active,False
+SY,Syria,2019,4.135016557197591,SYR,,,,,False
+SY,Syria,2020,6.5475,SYR,,,,,False
+SY,Syria,2021,7.1537500000000005,SYR,,,,,False
+SY,Syria,2022,17.876889957264954,SYR,,,,,False
+SY,Syria,2023,0.6666252666666668,SYR,,,,,False
+ST,São Tomé and Príncipe,2019,31.68,STP,,,,,False
+ST,São Tomé and Príncipe,2020,28.262527777777777,STP,,,,,False
+ST,São Tomé and Príncipe,2021,30.9659,STP,,,,,False
+ST,São Tomé and Príncipe,2022,28.54,STP,,,,,False
+ST,São Tomé and Príncipe,2023,2.4085105,STP,,,,,False
+TW,Taiwan,2019,12.017716694129104,TWN,,,,,False
+TW,Taiwan,2020,5.9144345,TWN,,,,,False
+TW,Taiwan,2021,5.66726433,TWN,,,,,False
+TW,Taiwan,2022,0.7421278458333334,TWN,,,,,False
+TW,Taiwan,2023,0.6925700927777778,TWN,,,,,False
+TJ,Tajikistan,2019,4.099944624242425,TJK,140.133,0.1972258633716041,,EC - Labour reports,False
+TJ,Tajikistan,2020,4.6512128725,TJK,,,,,True
+TJ,Tajikistan,2021,2.6027427125,TJK,,,,,False
+TJ,Tajikistan,2022,1.944703683,TJK,,,,,False
+TJ,Tajikistan,2023,1.6516183223833336,TJK,,,,,False
+TZ,Tanzania,2019,3.713330717616537,TZA,,,,,False
+TZ,Tanzania,2020,0.7331967142857142,TZA,185.671,1.461251613425153,B,LFS - Labour Force Survey,True
+TZ,Tanzania,2021,0.7513687916666666,TZA,,,,,True
+TZ,Tanzania,2022,0.7146941,TZA,,,,,False
+TZ,Tanzania,2023,0.8394370526315791,TZA,,,,,False
+TH,Thailand,2019,2.7755355191616853,THA,487.26,1.0130139096754918,,LFS - Labour Force Survey,False
+TH,Thailand,2020,1.234552138685,THA,490.275,2.2915627258801647,,LFS - Labour Force Survey,False
+TH,Thailand,2021,1.063191861031,THA,485.796,2.636596847695877,,LFS - Labour Force Survey,False
+TH,Thailand,2022,0.3753749824,THA,467.317,7.183691813642555,,LFS - Labour Force Survey,False
+TH,Thailand,2023,0.4063260968,THA,475.729,6.755948765285475,,LFS - Labour Force Survey,False
+NL,The Netherlands,2019,4.619460416666666,NLD,4775.216,5.964900563556193,,HIES - EU Statistics on Income and Living Conditions,False
+NL,The Netherlands,2020,2.9837225,NLD,5091.277,9.846224511728328,,HIES - EU Statistics on Income and Living Conditions,False
+NL,The Netherlands,2021,3.1058475,NLD,5548.104,10.307798091338038,,HIES - EU Statistics on Income and Living Conditions,False
+NL,The Netherlands,2022,1.9022515,NLD,5108.662,15.496751604306834,,HIES - EU Statistics on Income and Living Conditions,False
+NL,The Netherlands,2023,1.607355,NLD,5371.591,19.28379780983099,,HIES - EU Statistics on Income and Living Conditions,False
+TL,Timor-Leste,2019,4.482785547785547,TLS,,,,,False
+TL,Timor-Leste,2020,2.083333333333333,TLS,,,,,False
+TL,Timor-Leste,2021,1.6666666666666667,TLS,257.594,0.8918430467397575,,LFS - Labour Force Survey,False
+TL,Timor-Leste,2022,2.333333333333333,TLS,,,,,True
+TL,Timor-Leste,2023,1.923076923076923,TLS,,,,,False
+TG,Togo,2019,15.115110392028368,TGO,131.233,0.0500994745420836,,HIES - Living Standards Measurement Survey,False
+TG,Togo,2020,4.498674545454546,TGO,,,,,True
+TG,Togo,2021,4.6892925000000005,TGO,,,,,False
+TG,Togo,2022,2.1682065,TGO,137.662,0.366365753003607,,HIES - Living Standards Measurement Survey,False
+TG,Togo,2023,1.4472923437500005,TGO,,,,,True
+TK,Tokelau,2019,29.963258692047667,,,,,,False
+TK,Tokelau,2020,17.747208333333333,,,,,,False
+TK,Tokelau,2021,20.4760844017094,,,,,,False
+TK,Tokelau,2022,2.2201254,,,,,,False
+TK,Tokelau,2023,17.24063034188034,,,,,,False
+TO,Tonga,2019,2.915523037017035,TON,,,,,False
+TO,Tonga,2020,3.4061839615384613,TON,,,,,False
+TO,Tonga,2021,1.2770625,TON,568.344,2.5680327883435563,,HIES - Household Income and Expenditure Survey,False
+TO,Tonga,2022,1.1946925000000002,TON,,,,,True
+TO,Tonga,2023,1.1927142857142856,TON,662.786,3.2065524085348507,,LFS - Labour Force Survey,False
+TT,Trinidad and Tobago,2019,2.694595708799999,TTO,,,,,False
+TT,Trinidad and Tobago,2020,5.924459798000001,TTO,,,,,False
+TT,Trinidad and Tobago,2021,1.89541197312,TTO,,,,,False
+TT,Trinidad and Tobago,2022,0.9788066870399998,TTO,,,,,False
+TT,Trinidad and Tobago,2023,0.3195575499999999,TTO,,,,,False
+TN,Tunisia,2019,3.67375291589529,TUN,252.068,0.3959216120058397,,LFS - Enquête Nationale sur la Population et l'Emploi,False
+TN,Tunisia,2020,1.3724492,TUN,,,,,True
+TN,Tunisia,2021,1.0897226999999998,TUN,,,,,False
+TN,Tunisia,2022,1.209409123725,TUN,,,,,False
+TN,Tunisia,2023,1.2779684,TUN,,,,,False
+TR,Turkey,2019,2.251585528794643,TUR,520.204,1.3331735104478912,,LFS - Household Labour Force Survey,False
+TR,Turkey,2020,0.7162705272916668,TUR,488.917,3.938759776285144,,LFS - Household Labour Force Survey,False
+TR,Turkey,2021,0.6322384607142857,TUR,454.831,4.151170610987816,,LFS - Household Labour Force Survey,False
+TR,Turkey,2022,0.3858310310111111,TUR,411.151,6.1490161643458245,,LFS - Household Labour Force Survey,False
+TR,Turkey,2023,0.4362448895833334,TUR,608.543,8.049378622798148,,LFS - Household Labour Force Survey,True
+TM,Turkmenistan,2019,19.81225,TKM,,,,,False
+TM,Turkmenistan,2020,11.437908,TKM,,,,,False
+TM,Turkmenistan,2021,21.4066125,TKM,,,,,False
+TM,Turkmenistan,2022,2.196860756835937,TKM,,,,,False
+TM,Turkmenistan,2023,11.41686,TKM,,,,,False
+TC,Turks and Caicos Islands,2019,23.091220390720387,TCA,,,,,False
+TC,Turks and Caicos Islands,2020,13.333333333333332,TCA,,,,,False
+TC,Turks and Caicos Islands,2021,8.0,TCA,,,,,False
+TC,Turks and Caicos Islands,2022,14.271075,TCA,,,,,False
+TC,Turks and Caicos Islands,2023,0.589041095890411,TCA,,,,,False
+TV,Tuvalu,2019,12.418257186850717,TUV,,,,,False
+TV,Tuvalu,2020,,TUV,,,,,False
+TV,Tuvalu,2021,6.353958333333334,TUV,,,,,False
+TV,Tuvalu,2022,16.5834332,TUV,,,,,False
+TV,Tuvalu,2023,6.084761904761905,TUV,,,,,False
+UG,Uganda,2019,5.021563740079366,UGA,110.065,0.1264770407213309,,HIES - National Household Survey,False
+UG,Uganda,2020,1.6150798125,UGA,,,,,True
+UG,Uganda,2021,1.5620622374999995,UGA,161.045,0.5949087401737981,,LFS - National Labour Force Survey,False
+UG,Uganda,2022,1.3172275,UGA,,,,,True
+UG,Uganda,2023,1.10672728,UGA,,,,,False
+UA,Ukraine,2019,5.930379297709374,UKR,406.143,0.3951827132414143,,ES - Survey of enterprises on matters pertaining to labor statistics,False
+UA,Ukraine,2020,0.462196375,UKR,429.973,5.368044252499959,,ES - Survey of enterprises on matters pertaining to labor statistics,False
+UA,Ukraine,2021,0.7475466666666667,UKR,513.593,3.9644434186244384,,ES - Survey of enterprises on matters pertaining to labor statistics,False
+UA,Ukraine,2022,0.4312903466666666,UKR,459.058,6.141850766678805,,ES - Survey of enterprises on matters pertaining to labor statistics,False
+UA,Ukraine,2023,0.2702478,UKR,,,,,True
+AE,United Arab Emirates,2019,10.227821878002649,ARE,,,,,False
+AE,United Arab Emirates,2020,3.781322222222222,ARE,,,,,False
+AE,United Arab Emirates,2021,7.623268800000001,ARE,,,,,False
+AE,United Arab Emirates,2022,5.304403278125,ARE,,,,,False
+AE,United Arab Emirates,2023,4.607363538461538,ARE,,,,,False
+GB,United Kingdom,2019,6.659295092592592,GBR,3168.059,2.7451522633822347,,ES - Annual Survey of Hours and Earnings,False
+GB,United Kingdom,2020,1.3925072,GBR,3260.698,13.511842211599571,,LFS - Labour Force Survey,True
+GB,United Kingdom,2021,1.4167371999999998,GBR,3512.742,14.307323371841967,,LFS - Labour Force Survey,False
+GB,United Kingdom,2022,0.7866625,GBR,3383.017,24.81516512917606,,LFS - Labour Force Survey,False
+GB,United Kingdom,2023,0.6242975,GBR,3620.971,33.4683951639889,,LFS - Labour Force Survey,False
+US,United States,2019,8.340286613333333,USA,4233.085,2.928717289535959,,LFS - Current Population Survey,False
+US,United States,2020,8.0,USA,4502.189,3.2473954125793423,B,LFS - Current Population Survey,True
+US,United States,2021,3.333333333333333,USA,4600.127,7.963289671090594,,LFS - Current Population Survey,False
+US,United States,2022,6.875,USA,4844.619,4.066196506321146,,LFS - Current Population Survey,False
+US,United States,2023,6.0,USA,5334.394,5.130211579149837,,LFS - Current Population Survey,False
+UM,United States Minor Outlying Islands,2019,,,,,,,False
+UM,United States Minor Outlying Islands,2020,,,,,,,False
+UM,United States Minor Outlying Islands,2021,,,,,,,False
+UM,United States Minor Outlying Islands,2022,,,,,,,False
+UM,United States Minor Outlying Islands,2023,,,,,,,False
+UY,Uruguay,2019,2.7961820829438637,URY,983.737,2.0300886118869963,B,LFS - Encuesta Continua de Hogares,True
+UY,Uruguay,2020,1.5788050595238097,URY,879.98,3.216219861113633,B,LFS - Encuesta Continua de Hogares,True
+UY,Uruguay,2021,1.507,URY,,,,,True
+UY,Uruguay,2022,0.2704068853714286,URY,994.487,21.221828561439303,,LFS - Encuesta Continua de Hogares Implantacion,False
+UY,Uruguay,2023,0.2771475,URY,1148.862,23.919843657862117,,LFS - Encuesta Continua de Hogares Implantacion,False
+UZ,Uzbekistan,2019,3.2686281654551688,UZB,263.061,0.4644001863481583,,OE - Official Estimates,False
+UZ,Uzbekistan,2020,1.33569,UZB,265.886,1.1486593003703809,,OE - Official Estimates,False
+UZ,Uzbekistan,2021,0.59858253,UZB,303.014,2.921057420674351,,OE - Official Estimates,False
+UZ,Uzbekistan,2022,0.3712260416666667,UZB,351.322,5.460951873159874,,OE - Official Estimates,False
+UZ,Uzbekistan,2023,0.3013265714285714,UZB,,,,,True
+VU,Vanuatu,2019,,VUT,,,,,False
+VU,Vanuatu,2020,4.244999999999999,VUT,,,,,False
+VU,Vanuatu,2021,6.064285714285714,VUT,,,,,False
+VU,Vanuatu,2022,1.698,VUT,,,,,False
+VU,Vanuatu,2023,1.5428025,VUT,,,,,False
+VA,Vatican City (Holy See),2019,,,,,,,False
+VA,Vatican City (Holy See),2020,,,,,,,False
+VA,Vatican City (Holy See),2021,,,,,,,False
+VA,Vatican City (Holy See),2022,,,,,,,False
+VA,Vatican City (Holy See),2023,,,,,,,False
+VE,Venezuela,2019,,VEN,,,,,False
+VE,Venezuela,2020,,VEN,,,,,False
+VE,Venezuela,2021,,VEN,,,,,False
+VE,Venezuela,2022,2.51356416,VEN,,,,,False
+VE,Venezuela,2023,1.05363451275,VEN,,,,,False
+VN,Vietnam,2019,1.3070908644796122,VNM,288.3,1.2727417786844322,,LFS - Labour Force Survey,False
+VN,Vietnam,2020,0.5707341333333333,VNM,296.185,2.9945436699695427,,LFS - Labour Force Survey,False
+VN,Vietnam,2021,0.491508,VNM,291.315,3.420059751249145,,LFS - Labour Force Survey,False
+VN,Vietnam,2022,0.6077076214285714,VNM,320.607,3.044246074011673,,LFS - Labour Force Survey,False
+VN,Vietnam,2023,0.29106,VNM,330.156,6.545428851916364,,LFS - Labour Force Survey,False
+VG,Virgin Islands (British),2019,18.55054988662131,VGB,,,,,False
+VG,Virgin Islands (British),2020,12.5,VGB,,,,,False
+VG,Virgin Islands (British),2021,9.541666666666668,VGB,,,,,False
+VG,Virgin Islands (British),2022,12.937501666666668,VGB,,,,,False
+VG,Virgin Islands (British),2023,5.242857142857143,VGB,,,,,False
+VI,Virgin Islands (U.S.),2019,4.974747474747475,VIR,,,,,False
+VI,Virgin Islands (U.S.),2020,4.666666666666667,VIR,,,,,False
+VI,Virgin Islands (U.S.),2021,2.0,VIR,,,,,False
+VI,Virgin Islands (U.S.),2022,5.621875,VIR,,,,,False
+VI,Virgin Islands (U.S.),2023,4.33125,VIR,,,,,False
+WF,Wallis and Futuna,2019,,,,,,,False
+WF,Wallis and Futuna,2020,,,,,,,False
+WF,Wallis and Futuna,2021,,,,,,,False
+WF,Wallis and Futuna,2022,,,,,,,False
+WF,Wallis and Futuna,2023,,,,,,,False
+EH,Western Sahara,2019,1.1807565191798943,ESH,,,,,False
+EH,Western Sahara,2020,0.98512834,ESH,,,,,False
+EH,Western Sahara,2021,0.8841251599999999,ESH,,,,,False
+EH,Western Sahara,2022,0.71616666,ESH,,,,,False
+EH,Western Sahara,2023,0.5779877546681819,ESH,,,,,False
+YE,Yemen,2019,15.72559923715194,YEM,,,,,False
+YE,Yemen,2020,15.977696,YEM,,,,,False
+YE,Yemen,2021,15.977708,YEM,,,,,False
+YE,Yemen,2022,2.2201254,YEM,,,,,False
+YE,Yemen,2023,15.6781142,YEM,,,,,False
+ZM,Zambia,2019,2.246034758809285,ZMB,228.649,0.5874274956774486,,LFS - Labour Force Survey,False
+ZM,Zambia,2020,1.36,ZMB,163.247,0.6926402701877057,,LFS - Labour Force Survey,False
+ZM,Zambia,2021,1.1333333333333335,ZMB,160.128,0.8152880078748173,,LFS - Labour Force Survey,False
+ZM,Zambia,2022,1.36,ZMB,203.415,0.863068972539968,,LFS - Labour Force Survey,False
+ZM,Zambia,2023,8.007000000000001,ZMB,160.3,0.115522114918056,,LFS - Labour Force Survey,False
+ZW,Zimbabwe,2019,,ZWE,,,,,False
+ZW,Zimbabwe,2020,,ZWE,,,,,False
+ZW,Zimbabwe,2021,,ZWE,,,,,False
+ZW,Zimbabwe,2022,,ZWE,,,,,False
+ZW,Zimbabwe,2023,43.75,ZWE,,,,,False
+AX,Åland Islands,2019,4.635643340259116,ALA,,,,,False
+AX,Åland Islands,2020,3.2414076249999995,ALA,,,,,False
+AX,Åland Islands,2021,2.7528654666666665,ALA,,,,,False
+AX,Åland Islands,2022,7.0,ALA,,,,,False
+AX,Åland Islands,2023,6.124022549999999,ALA,,,,,False
