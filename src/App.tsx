@@ -30,6 +30,7 @@ export default function App() {
   return (
     <div className="wrap">
       <nav className="nav" aria-label="Sections">
+        {import.meta.env.BASE_URL.startsWith("/") ? <a href={import.meta.env.BASE_URL}>Home</a> : null}
         <a href="#answer">Answer</a>
         <a href="#trend">Trend</a>
         <a href="#ranking">Ranking</a>
@@ -39,6 +40,7 @@ export default function App() {
       <header id="answer">
         <p className="kicker">Mobile data and wages</p>
         <h1>What an hour of pay buys in mobile data</h1>
+        <p className="byline">By David Graça</p>
         <p className="lead">
           At 2023 prices, one hour of average pay buys {fmtGb(france.gb)} of mobile data in France, {fmtGb(germany.gb)} in Germany and {fmtGb(us.gb)} in the United States.
         </p>
