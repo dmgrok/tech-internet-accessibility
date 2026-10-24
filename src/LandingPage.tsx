@@ -19,7 +19,7 @@ export function LandingPage() {
         </a>
         <a className="stat link-card" href={`${base}internet-access/`}>
           <p className="stat-name">Internet access</p>
-          <p className="card-title">Richer countries are more online, but not all of them</p>
+          <p className="card-title">Money predicts who's online. Some countries defy it.</p>
           <p className="stat-meta">Internet use against GDP per person, and the gap. Preliminary figures.</p>
         </a>
       </div>

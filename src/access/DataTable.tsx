@@ -33,14 +33,14 @@ export function DataTable({ rows, total, activeId, selectedId, onHover, onSelect
     <div className="table-scroll" ref={scrollRef}>
       <table>
         <caption>
-          {rows.length === total ? `${total} economies.` : `${rows.length} of ${total} economies.`} The year and the ITU estimate flag sit under each figure.
+          {rows.length === total ? `${total} economies.` : `${rows.length} of ${total} economies.`} Under each figure: its year and ITU estimate flag.
         </caption>
         <thead>
           <tr>
             <th scope="col">Country</th>
-            <th scope="col">Internet use (% of population)</th>
+            <th scope="col">Internet use (% of people)</th>
             <th scope="col">GDP per person, PPP</th>
-            <th scope="col">Predicted (% of population)</th>
+            <th scope="col">Income predicts (% of people)</th>
             <th scope="col">Gap (percentage points)</th>
             <th scope="col">Home broadband (% of median income)</th>
           </tr>
@@ -48,7 +48,7 @@ export function DataTable({ rows, total, activeId, selectedId, onHover, onSelect
         <tbody>
           {rows.length === 0 ? (
             <tr>
-              <td colSpan={6}>No matching country.</td>
+              <td colSpan={6}>No country matches.</td>
             </tr>
           ) : null}
           {rows.map((country) => {
@@ -88,7 +88,7 @@ export function DataTable({ rows, total, activeId, selectedId, onHover, onSelect
                     <>
                       <span className="figure">{fmtBb(country.bb)}%</span>
                       <span className="row-quiet">
-                        {detail(country.bbYear, country.bbFlag)} {country.bb <= 2 ? "At or below the 2% target." : "Above the 2% target."}
+                        {detail(country.bbYear, country.bbFlag)} {country.bb <= 2 ? "At or under the 2% target." : "Over the 2% target."}
                       </span>
                     </>
                   )}

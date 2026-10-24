@@ -92,7 +92,7 @@ export function ScatterChart({ costMode, selectedId, activeId, onHover, onSelect
         type: "value" as const,
         min: 0,
         max: 100,
-        name: "Internet users (% of population)",
+        name: "People online (% of population)",
         nameLocation: "middle" as const,
         nameGap: 40,
         nameTextStyle: { color: "#5c564e", fontFamily: FONT, fontSize: 12 },
@@ -167,8 +167,8 @@ export function ScatterChart({ costMode, selectedId, activeId, onHover, onSelect
   }, [option, activeId]);
 
   const label = costMode
-    ? "Scatter plot of internet users against GDP per person. Points are coloured by home broadband cost against the 2% target. A dashed curve shows the share income predicts. The table lower on the page lists every figure."
-    : "Scatter plot of internet users against GDP per person. Purple points are at least 10 percentage points more online than income predicts. Orange points are at least 10 percentage points less online. A dashed curve shows the share income predicts. The table lower on the page lists every figure.";
+    ? "Scatter plot of internet users against GDP per person. Dots are coloured by home broadband cost against the 2% target. A dashed curve shows what income predicts. The table below lists every figure."
+    : "Scatter plot of internet users against GDP per person. Purple dots are at least 10 percentage points more online than income predicts. Orange dots are at least 10 points less online. A dashed curve shows what income predicts. The table below lists every figure.";
 
   return <div className="chart" role="img" tabIndex={0} aria-label={label} ref={hostRef} />;
 }

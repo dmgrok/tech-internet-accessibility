@@ -100,7 +100,7 @@ export function GapMap({ costMode, selectedId, activeId, onHover, onSelect }: Pr
         extraCssText: "max-width:280px;white-space:normal;line-height:1.35;",
         formatter: (raw: { name?: string }) => {
           const country = raw.name ? accessById.get(raw.name) : undefined;
-          if (!country) return "No row for this area.";
+          if (!country) return "No data for this area.";
           return tooltipHtml(country);
         },
       },
@@ -157,8 +157,8 @@ export function GapMap({ costMode, selectedId, activeId, onHover, onSelect }: Pr
   }, [option, activeId]);
 
   const label = costMode
-    ? "World map coloured by the cheapest home broadband plan as a share of median monthly income. Blue is at or below the 2% target. Orange is above it. Hatched grey means no figure. The table lists the figures."
-    : "World map of the gap between internet use and the share GDP per person predicts, in percentage points. Brown is less online than predicted. Purple is more online. Hatched grey means no 2024 figure. The table lists the figures.";
+    ? "World map coloured by the cheapest home broadband plan as a share of median monthly income. Blue is at or under the 2% target. Orange is over it. Hatched grey means no figure. The table lists every figure."
+    : "World map of the gap between internet use and what GDP per person predicts, in percentage points. Orange to brown is less online than predicted. Purple is more online. Hatched grey means no 2024 figure. The table lists every figure.";
 
   return <div className="map" role="img" tabIndex={0} aria-label={label} ref={hostRef} />;
 }

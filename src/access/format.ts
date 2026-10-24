@@ -13,10 +13,10 @@ export const GAP_BINS: { label: string; color: string; test: (value: number) => 
   { label: "20+ points less", color: "#B35806", test: (value) => value <= -20 },
   { label: "10 to 20 less", color: "#F1A340", test: (value) => value <= -10 },
   { label: "5 to 10 less", color: "#FEE0B6", test: (value) => value <= -5 },
-  { label: "within 5", color: "#F7F7F7", test: (value) => value < 5 },
+  { label: "Within 5", color: "#F7F7F7", test: (value) => value < 5 },
   { label: "5 to 10 more", color: "#D8DAEB", test: (value) => value < 10 },
   { label: "10 to 20 more", color: "#998EC3", test: (value) => value < 20 },
-  { label: "20+ more", color: "#542788", test: () => true },
+  { label: "20+ points more", color: "#542788", test: () => true },
 ];
 
 export function gapColor(value: number): string {
@@ -31,15 +31,15 @@ export function yearLabel(year: number | null): string {
 export function ituLabel(flag: string): string {
   switch (flag) {
     case "yes":
-      return "ITU marks this as an estimate";
+      return "ITU estimate";
     case "likely":
-      return "Likely an ITU estimate: the latest official figure is older than 2024";
+      return "Likely an ITU estimate: latest official figure is older than 2024";
     case "no":
-      return "ITU does not mark this as an estimate";
+      return "Not marked as an ITU estimate";
     case "unknown":
-      return "The World Bank copy does not state an ITU estimate flag";
+      return "No ITU estimate flag in the World Bank copy";
     case "not_marked":
-      return "ITU does not mark this as an estimate";
+      return "Not marked as an ITU estimate";
     case "n/a":
       return "Not an ITU figure";
     case "composite":
@@ -47,6 +47,11 @@ export function ituLabel(flag: string): string {
     default:
       return "Estimate flag not stated";
   }
+}
+
+export function fitSummary(r2: number): { r2: string; pct: number } {
+  const text = r2.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  return { r2: text, pct: Math.round(Number(text) * 100) };
 }
 
 export function fmtPct(value: number): string {
@@ -95,7 +100,7 @@ export function factLines(country: AccessCountry): Fact[] {
   const use =
     country.use == null
       ? "No figure."
-      : valued(`${fmtPct(country.use)}% of population`, country.useYear, country.useFlag);
+      : valued(`${fmtPct(country.use)}% of people online`, country.useYear, country.useFlag);
   const gdp =
     country.gdp == null
       ? "No figure."
@@ -103,27 +108,27 @@ export function factLines(country: AccessCountry): Fact[] {
   const pred =
     country.pred == null
       ? "No figure."
-      : `${fmtPct(country.pred)}% of population, from the fitted curve. Year: ${yearLabel(country.predYear)}. Calculated on this page.`;
+      : `${fmtPct(country.pred)}% of people, from the income curve. Year: ${yearLabel(country.predYear)}. Calculated on this page.`;
   let gap =
     country.gap == null
-      ? "No fitted gap. The curve uses countries with internet use and GDP per person for 2024."
+      ? "No gap here. The curve only uses countries with 2024 figures for both internet use and GDP per person."
       : valued(`${fmtPoints(country.gap)} percentage points`, country.gapYear, country.gapFlag);
   if (country.use != null && country.use >= 95 && country.gap != null) {
-    gap += " Use is at or above 95%, so the gap cannot be large. Use is capped at 100%.";
+    gap += " At 95% or more online, the gap cannot be large: use tops out at 100%.";
   }
   let bb = "No figure.";
   if (country.bb != null) {
-    const side = country.bb <= 2 ? "At or below the 2% target." : "Above the 2% target.";
+    const side = country.bb <= 2 ? "At or under the 2% target." : "Over the 2% target.";
     bb = `${valued(`${fmtBb(country.bb)}% of median monthly income`, country.bbYear, country.bbFlag)} ${side}`;
   }
   const lines: Fact[] = [
     { label: "Internet use", text: use },
     { label: "GDP per person", text: gdp },
-    { label: "Predicted", text: pred },
+    { label: "Income predicts", text: pred },
     { label: "Gap", text: gap },
     { label: "Home broadband", text: bb },
   ];
-  if (!country.onMap) lines.push({ label: "Map", text: "Not drawn on this map." });
+  if (!country.onMap) lines.push({ label: "Map", text: "Not on this map." });
   return lines;
 }
 

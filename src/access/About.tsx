@@ -1,33 +1,34 @@
 import { access } from "./data";
+import { fitSummary } from "./format";
 
 const base = import.meta.env.BASE_URL;
 
 export function About() {
   const { counts, model, noFigures, unmapped } = access;
-  const r2 = model.r2.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const fit = fitSummary(model.r2);
   return (
     <section className="block" id="about">
       <p className="section-kicker">About</p>
-      <h2>Sources and licences</h2>
+      <h2>The fine print</h2>
       <div className="prose">
         <p>
-          By David Graça. This page is non-commercial and has no advertising. Please keep any reuse non-commercial, with no ads.
+          By David Graça. This page is non-commercial and ad-free. Reuse it the same way: non-commercial, no ads.
         </p>
         <p>
-          The dashed curve is a logistic fit of internet use on the log of GDP per person. It is fitted to {model.n} countries, all with 2024 figures. R² is {r2}. Predicted use levels off below 100%. The gap is actual internet use minus that prediction, in percentage points. It is a residual from one curve, not a score of policy.
+          The dashed curve is a logistic fit of internet use on the log of GDP per person, across {model.n} countries with 2024 figures. R² is {fit.r2}: income accounts for {fit.pct}% of the variation. Predicted use levels off below 100%. The gap is actual internet use minus that prediction, in percentage points. It is what one curve leaves over, not a policy score. It shows association, not cause.
         </p>
         <p>
-          Of those {counts.scatter} internet use figures, {counts.official} are official, {counts.ituEstimate} are ITU estimates, {counts.likely} are likely ITU estimates because the latest official figure is older than 2024, and {counts.notStated} do not state an estimate flag in the World Bank copy. {counts.atLeast95} countries are at or above 95% online, so their gap cannot be large.
+          Of the {counts.scatter} internet use figures, {counts.official} are official and {counts.ituEstimate} are ITU estimates. Another {counts.likely} are likely ITU estimates, because the latest official figure is older than 2024. The World Bank copy states no estimate flag for {counts.notStated}. {counts.atLeast95} countries are at or above 95% online, so their gap cannot be large.
         </p>
         <p>
-          Home broadband cost is the monthly price of the cheapest plan from the largest operator with at least 5 GB and 256 kbit/s, divided by the median person's monthly income or consumption. {counts.atOrBelowTarget} of {counts.withBroadband} countries with a figure are at or below 2%. The UN Broadband Commission target is defined on GNI per capita. Applying it to median income is a reframing. The median is per person, while a connection is shared by a household, so the share overstates the household burden. ITU price baskets are collected prices. ITU does not mark them as estimates.
+          Home broadband cost is the monthly price of the cheapest plan from the largest operator with at least 5 GB and 256 kbit/s, divided by the median person's monthly income or consumption. Only {counts.atOrBelowTarget} of {counts.withBroadband} countries with a figure come in at or under 2%. The UN Broadband Commission defines its target on GNI per capita, so applying it to median income is a reframing. The median is per person, but a household shares one connection, so the share overstates what a household pays. ITU price baskets are collected prices, and ITU does not mark them as estimates.
         </p>
-        <h3>Derived data</h3>
+        <h3>Reuse the data</h3>
         <p>
-          Predicted internet use and the gap are offered under CC BY-NC-SA 3.0 IGO, the same licence as the ITU figures they are calculated from. Attribute David Graça, from ITU and World Bank data.{" "}
+          You can reuse the predicted use and gap figures under CC BY-NC-SA 3.0 IGO, the same licence as the ITU figures behind them. Credit: David Graça, from ITU and World Bank data.{" "}
           <a href={`${base}internet-gap.json`}>Download the derived file (JSON)</a>.
         </p>
-        <h3>Sources used on this page</h3>
+        <h3>Sources</h3>
         <ul>
           <li>
             Individuals using the Internet, series IT.NET.USER.ZS. ITU, via World Bank World Development Indicators.{" "}
@@ -39,7 +40,7 @@ export function About() {
           </li>
           <li>
             Population, series SP.POP.TOTL. World Bank World Development Indicators.{" "}
-            <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">SP.POP.TOTL</a>. Licence: CC BY 4.0. Downloaded 24 Oct 2026. Used to size the points.
+            <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">SP.POP.TOTL</a>. Licence: CC BY 4.0. Downloaded 24 Oct 2026. Sets the dot sizes.
           </li>
           <li>
             ICT Price Baskets, 2008 to 2025. ITU.{" "}
@@ -51,30 +52,30 @@ export function About() {
           </li>
           <li>
             Natural Earth 1:50m admin-0 countries, public domain, for the map.{" "}
-            <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/">Natural Earth</a>. Antarctica is omitted so the other countries stay readable.
+            <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/">Natural Earth</a>. Antarctica is left out to keep the map readable.
           </li>
         </ul>
         <h3>Ookla notice</h3>
         <p>
-          Ookla speeds are not plotted on this page. They are part of the source dataset, under CC BY-NC-SA 4.0. The required attribution is: Speedtest by Ookla Global Fixed and Mobile Network Performance Maps was accessed on 24 Oct 2026 from AWS. Based on David Graça's analysis of Speedtest by Ookla data for 2026 Q3. Ookla trademarks used under license and reprinted with permission.
+          This page does not plot Ookla speeds. They sit in the source dataset under CC BY-NC-SA 4.0. Required attribution: Speedtest by Ookla Global Fixed and Mobile Network Performance Maps was accessed on 24 Oct 2026 from AWS. Based on David Graça's analysis of Speedtest by Ookla data for 2026 Q3. Ookla trademarks used under license and reprinted with permission.
         </p>
         <h3>ITU licence</h3>
         <p>ITU data licensed CC BY-NC-SA 3.0 IGO.</p>
         {noFigures.length > 0 ? (
           <>
-            <h3>Economies with no plotted figure</h3>
+            <h3>No figure to plot</h3>
             <ul>
               {noFigures.map((country) => (
                 <li key={country.id}>
                   {country.name}
-                  {country.onMap ? "" : " (no polygon on this map)"}
+                  {country.onMap ? "" : " (not on this map)"}
                 </li>
               ))}
             </ul>
           </>
         ) : null}
         {unmapped.length > 0 ? (
-          <p>Not drawn, because this map has no polygon: {unmapped.map((country) => country.name).join(", ")}.</p>
+          <p>Missing from the map, which has no shape for them: {unmapped.map((country) => country.name).join(", ")}.</p>
         ) : null}
       </div>
     </section>

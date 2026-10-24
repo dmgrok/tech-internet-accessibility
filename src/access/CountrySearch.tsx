@@ -43,12 +43,12 @@ export function CountrySearch({ query, onQuery, onSelect }: Props) {
     <div className="search" ref={wrapRef}>
       <input
         role="combobox"
-        aria-label="Search by country name"
+        aria-label="Find a country"
         aria-expanded={open && q.length > 0}
         aria-controls={listId}
         aria-autocomplete="list"
         aria-activedescendant={open && shown[active] ? `${listId}-${shown[active].id}` : undefined}
-        placeholder="Search by country name"
+        placeholder="Find a country"
         value={query}
         autoComplete="off"
         spellCheck={false}
@@ -77,7 +77,7 @@ export function CountrySearch({ query, onQuery, onSelect }: Props) {
       {open && q && (
         <ul className="menu" id={listId} role="listbox">
           {shown.length === 0 ? (
-            <li className="empty">No matching country.</li>
+            <li className="empty">No country matches.</li>
           ) : (
             shown.map((country, index) => (
               <li key={country.id} role="presentation">

@@ -5,7 +5,14 @@ import { DataTable } from "./DataTable";
 import { GapMap } from "./GapMap";
 import { ScatterChart } from "./ScatterChart";
 import { access, accessById } from "./data";
-import { ABOVE, GAP_BINS, LESS, MEETS, MORE, NEAR, factLines } from "./format";
+import { ABOVE, GAP_BINS, LESS, MEETS, MORE, NEAR, factLines, fitSummary, fmtPct, ituLabel } from "./format";
+import type { AccessCountry } from "./types";
+
+function pointsLeader(countries: AccessCountry[]): AccessCountry | undefined {
+  return countries
+    .filter((country) => country.pop1m && country.gap != null && country.gap > 0)
+    .sort((a, b) => (b.gap as number) - (a.gap as number))[0];
+}
 
 export default function AccessApp() {
   const base = import.meta.env.BASE_URL;
@@ -26,6 +33,8 @@ export default function AccessApp() {
     return access.countries.filter((country) => country.name.toLowerCase().includes(q));
   }, [q]);
 
+  const fit = fitSummary(access.model.r2);
+  const leader = pointsLeader(access.countries);
   const selectedText = selectedCountry
     ? `${selectedCountry.name}. ${factLines(selectedCountry).map((fact) => `${fact.label}: ${fact.text}`).join(" ")}`
     : "";
@@ -34,7 +43,7 @@ export default function AccessApp() {
     <div className="wrap access">
       <a className="skip" href="#content">Skip to content</a>
       <p className="banner" role="note">
-        <strong>Preliminary figures.</strong> The numbers are under review until the open checks are closed (incomplete ITU estimate flags, among others).
+        <strong>Preliminary.</strong> Figures stay under review until open checks close, including incomplete ITU estimate flags.
       </p>
       <nav className="nav" aria-label="Sections">
         <a href={base}>Home</a>
@@ -44,11 +53,11 @@ export default function AccessApp() {
         <a href="#about">About</a>
       </nav>
       <header id="content">
-        <p className="kicker">Internet use and income</p>
-        <h1 className="wide" id="scatter">Richer countries are more online, but not all of them</h1>
+        <p className="kicker">Internet use vs income</p>
+        <h1 className="wide" id="scatter">Money predicts who's online. Some countries defy it.</h1>
         <p className="byline">By David Graça</p>
         <p className="lead">
-          Share of people using the internet against income per person, 2024. The dashed curve is the share a country's income predicts.
+          Income alone accounts for {fit.pct}% of the differences in internet use across {access.model.n} countries. So the real story is who beats their income and who falls short. Each dot is a country in 2024. The dashed curve shows what its income predicts.
         </p>
       </header>
 
@@ -61,7 +70,7 @@ export default function AccessApp() {
             onChange={(event) => setCostMode(event.target.checked)}
             aria-describedby="cost-def"
           />
-          Colour by home broadband cost
+          Colour by broadband cost
         </label>
         {(query || selected) && (
           <button
@@ -78,7 +87,7 @@ export default function AccessApp() {
         )}
       </div>
       <p className="def-line" id="cost-def">
-        The cheapest home broadband plan as a share of median monthly income. The UN Broadband Commission target is 2% of monthly GNI per capita. This colouring applies that 2% line to median income. Hover a country, or select one from the search or the table, and it is marked on both views.
+        Broadband cost is the cheapest home plan as a share of median monthly income. The UN Broadband Commission sets its 2% target on monthly GNI per capita. This view applies the same 2% line to median income. Hover, search or pick from the table to mark a country on both views.
       </p>
 
       <div className="readout card" aria-live="off">
@@ -95,7 +104,7 @@ export default function AccessApp() {
             </dl>
           </>
         ) : (
-          <p>Hover or select a country to read its figures here. The same country is marked on the scatter and the map.</p>
+          <p>Hover or pick a country to see its numbers here. It lights up on the scatter and the map too.</p>
         )}
       </div>
       <p className="sr-only" aria-live="polite">{selectedText}</p>
@@ -105,42 +114,46 @@ export default function AccessApp() {
           <ul className="key" aria-label={costMode ? "Broadband cost colours" : "Scatter colours"}>
             {costMode ? (
               <>
-                <li className="key-item"><i className="dot" style={{ background: MEETS }} /> At or below the 2% target</li>
-                <li className="key-item"><i className="dot" style={{ background: ABOVE }} /> Above the 2% target</li>
+                <li className="key-item"><i className="dot" style={{ background: MEETS }} /> At or under the 2% target</li>
+                <li className="key-item"><i className="dot" style={{ background: ABOVE }} /> Over the 2% target</li>
                 <li className="key-item"><i className="dot" style={{ background: NEAR }} /> No broadband figure</li>
               </>
             ) : (
               <>
-                <li className="key-item"><i className="dot" style={{ background: MORE }} /> 10 or more points above the curve</li>
+                <li className="key-item"><i className="dot" style={{ background: MORE }} /> 10+ points more online</li>
                 <li className="key-item"><i className="dot" style={{ background: NEAR }} /> Within 10 points</li>
-                <li className="key-item"><i className="dot" style={{ background: LESS }} /> 10 or more points below the curve</li>
+                <li className="key-item"><i className="dot" style={{ background: LESS }} /> 10+ points less online</li>
               </>
             )}
-            <li className="key-item"><i className="swatch curve" /> Expected from income</li>
+            <li className="key-item"><i className="swatch curve" /> What income predicts</li>
           </ul>
-          <p className="def-line">Larger points are countries with more people. Gap is actual internet use minus the share predicted from GDP per person.</p>
+          <p className="def-line">Bigger dots mean more people. Gap: actual internet use minus what GDP per person predicts.</p>
           <ScatterChart costMode={costMode} selectedId={selected} activeId={active} onHover={onHover} onSelect={onSelect} />
           <footer className="source-block">
-            <p>Source: ITU via World Bank WDI (IT.NET.USER.ZS), World Bank WDI (NY.GDP.PCAP.PP.KD). Population: World Bank WDI (SP.POP.TOTL). Calculation: David Graça.</p>
-            <p>ITU data licensed CC BY-NC-SA 3.0 IGO. Non-commercial, no ads.</p>
+            <p>Sources: ITU via World Bank WDI (IT.NET.USER.ZS); World Bank WDI (NY.GDP.PCAP.PP.KD). Population: World Bank WDI (SP.POP.TOTL). Calculation: David Graça.</p>
+            <p>ITU data: CC BY-NC-SA 3.0 IGO. Non-commercial, ad-free.</p>
           </footer>
         </div>
       </section>
 
       <section className="block" id="map">
         <p className="section-kicker">Map</p>
-        <h2>{costMode ? "Where a basic home connection costs more than 2% of median income" : "Where countries are more, or less, online than their income predicts"}</h2>
+        <h2>{costMode ? "Where basic home broadband costs over 2% of median income" : "Who beats the income curve, and who falls short"}</h2>
         <p className="section-intro">
           {costMode
-            ? "Cheapest home broadband plan as a share of median monthly income, 2025. Blue is at or below the 2% target. Orange is above it."
-            : "Internet users in 2024 compared with what GDP per person predicts, in percentage points."}
+            ? `Cheapest home broadband plan as a share of median monthly income, 2025. Blue meets the 2% target. Orange misses it. Only ${access.counts.atOrBelowTarget} of ${access.counts.withBroadband} countries with a figure make it, almost all of them rich.`
+            : `Internet users in 2024 against what GDP per person predicts, in percentage points. Purple: more online than predicted. Orange to brown: less.${
+                leader
+                  ? ` Among countries with 1 million people or more, the ${leader.name} leads at ${fmtPct(Math.abs(leader.gap as number))} points above (${ituLabel(leader.gapFlag)}).`
+                  : ""
+              }`}
         </p>
         <div className="card">
           <ul className="legend" aria-label={costMode ? "Broadband map colours" : "Gap legend"}>
             {costMode ? (
               <>
-                <li><i style={{ background: MEETS }} /> At or below 2%</li>
-                <li><i style={{ background: ABOVE }} /> Above 2%</li>
+                <li><i style={{ background: MEETS }} /> 2% or less</li>
+                <li><i style={{ background: ABOVE }} /> Over 2%</li>
                 <li><i className="hatch" /> No figure</li>
               </>
             ) : (
@@ -156,25 +169,25 @@ export default function AccessApp() {
           <footer className="source-block">
             <p>
               {costMode
-                ? "Source: ITU ICT Price Baskets 2025; World Bank Poverty and Inequality Platform, 2025 lineup, release 20260922. Calculation: David Graça."
-                : "Source: ITU via World Bank WDI; World Bank WDI. Calculation: David Graça."}
+                ? "Sources: ITU ICT Price Baskets 2025; World Bank Poverty and Inequality Platform, 2025 lineup, release 20260922. Calculation: David Graça."
+                : "Sources: ITU via World Bank WDI; World Bank WDI. Calculation: David Graça."}
             </p>
-            <p>ITU data licensed CC BY-NC-SA 3.0 IGO. Hatched grey has no figure for this colouring. Non-commercial, no ads.</p>
+            <p>ITU data: CC BY-NC-SA 3.0 IGO. Hatched grey: no figure for this view. Non-commercial, ad-free.</p>
           </footer>
         </div>
       </section>
 
       <section className="block" id="table">
         <p className="section-kicker">Table</p>
-        <h2>Figures by country</h2>
+        <h2>All the numbers</h2>
         <p className="section-intro">
-          The same figures as the charts, for keyboard and screen reader access. Choose a country to mark it on the scatter and the map. Where a year is blank, the cell says: older than 2024, exact year not stated.
+          Every figure behind the charts, ready for keyboard and screen reader users. Pick a country to mark it on the scatter and the map. No exact year? The cell says: older than 2024, exact year not stated.
         </p>
         <DataTable rows={rows} total={access.countries.length} activeId={active} selectedId={selected} onHover={onHover} onSelect={onSelect} />
       </section>
 
       <About />
-      <p className="byline foot">By David Graça. Non-commercial. No advertising. ITU data licensed CC BY-NC-SA 3.0 IGO.</p>
+      <p className="byline foot">By David Graça. Non-commercial and ad-free. ITU data: CC BY-NC-SA 3.0 IGO.</p>
     </div>
   );
 }
