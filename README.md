@@ -1,8 +1,16 @@
-# What an hour of pay buys in mobile data
+# Tech and internet accessibility
 
-One hour of average pay buys **66.7 GB** of mobile data in France, **12.5 GB** in Germany and **5.1 GB** in the United States, at 2023 Cable.co.uk prices. Germany has no 2023 ILO wage, so 12.5 GB uses the 2022 wage.
+By David Graça. A static site with two pages.
 
-The page is a static site: a headline, a 2019 to 2023 line chart, a ranking linked to a world map, an ITU affordability trend, and a collapsed sources section.
+- Home links to both pages.
+- What an hour of pay buys in mobile data.
+- Richer countries are more online, but not all of them.
+
+The internet and income page is preliminary. The figures stay under review until the open checks are closed.
+
+Published site: https://dmgrok.github.io/tech-internet-accessibility/
+
+Vite `base` is `/tech-internet-accessibility/`, so asset paths match that GitHub Pages URL.
 
 ## Run it
 
@@ -11,20 +19,43 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:4737/
+Open http://127.0.0.1:4737/tech-internet-accessibility/
 
 ```bash
-npm run build          # multi-file site in dist/
-npm run build:single   # one offline file in dist-single/index.html
+npm run build          # site in dist/
+npm run build:single   # one offline file for the hour-of-pay page
+npm run data:access    # rebuild the internet page JSON from data/internet/
 ```
 
-`dist-single/index.html` has the JavaScript, the data and the map inlined. Double-click it to open it offline.
+`npm run build` reruns the internet page data script, then typechecks and builds.
 
-GitHub Pages: publish `dist/` (or the single file). Asset paths are relative.
+## GitHub Pages
+
+`.github/workflows/pages.yml` builds `dist/` and deploys it when `main` is pushed.
+
+In the repository settings, open Pages and set the source to GitHub Actions. After the first successful run on `main`, the site is at the URL above.
+
+## Internet use and income
+
+`data/internet/page_countries.csv` is the country file for that page. It keeps the columns the page plots. The long country file is not in this repo, and unicorn counts are not in this repo.
+
+`data/internet/gap_model.json` holds the logistic curve.
+
+`scripts/prepare_access.py` writes `src/data/accessData.json` (what the page loads) and `public/internet-gap.json` (the derived file offered under CC BY-NC-SA 3.0 IGO).
+
+The page is non-commercial and has no advertising. ITU data are CC BY-NC-SA 3.0 IGO. Ookla open data are CC BY-NC-SA 4.0 and are not plotted here. World Bank sources are named on the page.
+
+## What an hour of pay buys in mobile data
+
+One hour of average pay buys **66.7 GB** of mobile data in France, **12.5 GB** in Germany and **5.1 GB** in the United States, at 2023 Cable.co.uk prices. Germany has no 2023 ILO wage, so 12.5 GB uses the 2022 wage.
+
+The page is a static site: a headline, a 2019 to 2023 line chart, a ranking linked to a world map, an ITU affordability trend, and a collapsed sources section. On the built site it lives at `hour-of-pay/`.
+
+`dist-single/index.html` has the JavaScript, the data and the map inlined. Double-click it to open the hour-of-pay page offline. That file uses relative asset paths.
 
 ## Data
 
-Source files live in `data/raw/`. Rebuild the JSON the site imports with:
+Source files for the hour-of-pay page live in `data/raw/`. Rebuild the JSON that page imports with:
 
 ```bash
 python3 -m pip install pyshp

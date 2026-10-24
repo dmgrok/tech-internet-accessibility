@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 4737 --strictPort",
-    "data": "python3 scripts/prepare_data.py",
-    "build": "tsc -b && vite build && python3 scripts/strip_dashes.py dist && python3 scripts/check_dashes.py dist",
-    "build:single": "tsc -b && vite build --config vite.single.config.ts && python3 scripts/strip_dashes.py dist-single && python3 scripts/check_dashes.py dist-single",
-    "check": "python3 scripts/check_dashes.py dist-single src index.html README.md",
+    "data": "python3 scripts/prepare_data.py && python3 scripts/prepare_access.py",
+    "data:access": "python3 scripts/prepare_access.py",
+    "build": "python3 scripts/prepare_access.py && tsc -b && vite build && python3 scripts/strip_dashes.py dist && python3 scripts/check_dashes.py dist",
+    "build:single": "tsc -b && vite build --config vite.single.config.ts && python3 scripts/strip_dashes.py dist-single && python3 scripts/check_dashes.py dist-single && python3 scripts/copy_single.py",
+    "check": "python3 scripts/check_dashes.py src index.html hour-of-pay internet-access README.md public data/internet",
     "lint": "oxlint",
     "preview": "vite preview --host 0.0.0.0 --port 4737 --strictPort"
   },
