@@ -33,7 +33,7 @@ npm run data:access    # rebuild the internet page JSON from data/internet/
 
 `.github/workflows/pages.yml` builds `dist/` and deploys it when `main` is pushed.
 
-In the repository settings, open Pages and set the source to GitHub Actions. After the first successful run on `main`, the site is at the URL above.
+The site deploys from main through .github/workflows/pages.yml.
 
 ## Internet use and income
 
